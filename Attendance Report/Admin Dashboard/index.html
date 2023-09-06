@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>AdminLTE 2 | Simple Tables</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- Bootstrap 3.3.5 -->
+  <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="../../dist/css/AdminLTE.min.css">
+  <!-- AdminLTE Skins. Choose a skin from the css/skins
+       folder instead of downloading all of them to reduce the load. -->
+  <link rel="stylesheet" href="../../dist/css/skins/_all-skins.min.css">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body style="margin: 0; padding: 0; display: flex; flex-direction: column; height: 100%;"
+  class="hold-transition skin-blue sidebar-mini">
+  <div class="wrapper" style="flex: 1;">
+    <header class="main-header">
+      <a href="../../index2.html" class="logo">
+        <!-- LOGO -->
+        AdminLTE
+      </a>
+      <!-- Header Navbar: style can be found in header.less -->
+      <nav class="navbar navbar-static-top" role="navigation">
+        <!-- Navbar Right Menu -->
+        <div class="navbar-custom-menu">
+          <ul class="nav navbar-nav">
+            <!-- Messages: style can be found in dropdown.less-->
+            <li class="dropdown messages-menu">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <i class="fa fa-envelope-o"></i>
+                <span class="label label-success">4</span>
+              </a>
+              <ul class="dropdown-menu">
+                <li class="header">You have 4 messages</li>
+                <li>
+                  <!-- inner menu: contains the actual data -->
+                  <ul class="menu">
+                    <li>
+                      <!-- start message -->
+                      <a href="#">
+                        <div class="pull-left">
+                          <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                        </div>
+                        <h4>
+                          Sender Name
+                          <small><i class="fa fa-clock-o"></i> 5 mins</small>
+                        </h4>
+                        <p>Message Excerpt</p>
+                      </a>
+                    </li><!-- end message -->
+                    ...
+                  </ul>
+                </li>
+                <li class="footer"><a href="#">See All Messages</a></li>
+              </ul>
+            </li>
+            <!-- Notifications: style can be found in dropdown.less -->
+            <li class="dropdown notifications-menu">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <i class="fa fa-bell-o"></i>
+                <span class="label label-warning">10</span>
+              </a>
+              <ul class="dropdown-menu">
+                <li class="header">You have 10 notifications</li>
+                <li>
+                  <!-- inner menu: contains the actual data -->
+                  <ul class="menu">
+                    <li>
+                      <a href="#">
+                        <i class="ion ion-ios-people info"></i> Notification title
+                      </a>
+                    </li>
+                    ...
+                  </ul>
+                </li>
+                <li class="footer"><a href="#">View all</a></li>
+              </ul>
+            </li>
+            <!-- Tasks: style can be found in dropdown.less -->
+            <li class="dropdown tasks-menu">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <i class="fa fa-flag-o"></i>
+                <span class="label label-danger">9</span>
+              </a>
+              <ul class="dropdown-menu">
+                <li class="header">You have 9 tasks</li>
+                <li>
+                  <!-- inner menu: contains the actual data -->
+                  <ul class="menu">
+                    <li>
+                      <!-- Task item -->
+                      <a href="#">
+                        <h3>
+                          Design some buttons
+                          <small class="pull-right">20%</small>
+                        </h3>
+                        <div class="progress xs">
+                          <div class="progress-bar progress-bar-aqua" style="width: 20%" role="progressbar"
+                            aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                            <span class="sr-only">20% Complete</span>
+                          </div>
+                        </div>
+                      </a>
+                    </li><!-- end task item -->
+                    ...
+                  </ul>
+                </li>
+                <li class="footer">
+                  <a href="#">View all tasks</a>
+                </li>
+              </ul>
+            </li>
+            <!-- User Account: style can be found in dropdown.less -->
+            <li class="dropdown user user-menu">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <img src="dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
+                <span class="hidden-xs">Alexander Pierce</span>
+              </a>
+              <ul class="dropdown-menu">
+                <!-- User image -->
+                <li class="user-header">
+                  <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                  <p>
+                    Alexander Pierce - Web Developer
+                    <small>Member since Nov. 2012</small>
+                  </p>
+                </li>
+                <!-- Menu Body -->
+                <li class="user-body">
+                  <div class="col-xs-4 text-center">
+                    <a href="#">Followers</a>
+                  </div>
+                  <div class="col-xs-4 text-center">
+                    <a href="#">Sales</a>
+                  </div>
+                  <div class="col-xs-4 text-center">
+                    <a href="#">Friends</a>
+                  </div>
+                </li>
+                <!-- Menu Footer-->
+                <li class="user-footer">
+                  <div class="pull-left">
+                    <a href="#" class="btn btn-default btn-flat">Profile</a>
+                  </div>
+                  <div class="pull-right">
+                    <a href="#" class="btn btn-default btn-flat">Sign out</a>
+                  </div>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="main-sidebar">
+      <!-- Inner sidebar -->
+      <div class="box-body box-profile" style="background-color: #222d32; padding-top: 3rem;">
+        <img class="profile-user-img img-responsive img-circle" src="../../dist/img/user4-128x128.jpg"
+          alt="User profile picture">
+
+        <h3 class="profile-username text-center" style="color: #b5bbc8">Nina Mcintire</h3>
+
+        <p class="text-muted text-center" style="color: #b5bbc8">Software Engineer</p>
+      </div>
+      <hr style="border:1px solid #1a2226">
+      <div class="row" style="color: #b5bbc8; text-align: center;">
+        <div class="col-md-6">
+          <p>Normal Hrs</p>
+        </div>
+        <p>Overtime</p>
+        <div class="col-md-6">
+          <p style="font-size: 11px;">HH:MM</p>
+        </div>
+        <p style="font-size: 11px;">HH:MM</p>
+      </div>
+      <hr style="border:1px solid #1a2226">
+      <div class="row" style="color: #b5bbc8; text-align: center;">
+        <div class="col-md-6" style="font-size: 13px;">
+          <p>Emergency Hrs 1</p>
+        </div>
+        <p style="font-size: 13px;">Emergency Hrs 2</p>
+        <div class="col-md-6">
+          <p style="font-size: 11px;">HH:MM</p>
+        </div>
+        <p style="font-size: 11px;">HH:MM</p>
+      </div>
+      <hr style="border:1px solid #1a2226">
+      <div class="row" style="color: #b5bbc8; text-align: center;">
+        <div class="col-md-6">
+          <p style="font-size: 13px;">Total Break</p>
+        </div>
+        <div class="col-md-6" style="padding-top: 1px;">
+          <p style="font-size: 11px;">HH:MM</p>
+        </div>
+      </div>
+      <hr style="border:1px solid #1a2226">
+      <div class="row" style="color: #b5bbc8; text-align: center;">
+        <p>Total Holiday Taken</p>
+        <p style="font-size: 11px;">5 Days</p>
+      </div>
+      <hr style="border:1px solid #1a2226">
+      <div class="row" style="color: #b5bbc8; text-align: center;">
+        <div class="col-md-7">
+          <p style="font-size: 13px;">Total Hours Worked</p>
+        </div>
+        <div class="col-md-5" style="margin-top: 2px;">
+          <p style="font-size: 11px;">HH:MM</p>
+        </div>
+      </div>
+      <hr style="border:1px solid #1a2226">
+
+    </div><!-- /.main-sidebar -->
+
+    <div class="content-wrapper">
+      <div class="container">
+
+        <div class="container-fluid" style="padding: 0; margin: 0;">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="box-header with-border" style="margin: 0; background: none;">
+                <h3 class="box-title" style="color: #111111">Practice Name A</h3>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="box-header no-border" style="background: none;">
+                <span id="monthYear" style="color: #5e5d5d; font-weight: 600;">September 2023</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="box-body">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label>Name</label>
+                <select class="form-control select2" style="width: 50%;">
+                  <option selected="selected">Benson</option>
+                  <option>John</option>
+                  <option>Patience</option>
+                  <option>Elon</option>
+                  <option>Sharon</option>
+                  <option>Moon</option>
+                </select>
+              </div>
+              <!-- /.form-group -->
+            </div>
+            <div class="col-md-6" style="padding-left: 2.5rem;">
+              <div class="form-group">
+                <label>Role</label>
+                <select class="form-control select2" style="width: 50%;">
+                  <option selected="selected">Receptionist</option>
+                  <option>Practice Manager</option>
+                  <option>Consultant</option>
+                  <option>Nurse</option>
+                  <option>Trainee Nurse</option>
+                  <option>Security</option>
+                </select>
+              </div>
+              <!-- /.form-group -->
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="box-header">
+            <h3 class="box-title">Attendance Report</h3>
+          </div>
+          <!-- /.box-header -->
+          <div class="box-body">
+            <table id="example1" class="table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th colspan="6"
+                    style="background: linear-gradient(to right, #ffffff, rgb(236, 240, 245)); border-bottom: 1px solid #b5bbc8;">
+                    Normal Attendance</th>
+                  <th colspan="2" style="background: #f56954; color: white">Overtime</th>
+                  <th colspan="2" style="background:#3c8dbc; color: white">Emergency Attendance 1</th>
+                  <th colspan="2" style="background:hsl(213, 73%, 50%); color: white;">Emergency Attendance 2</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr
+                  style="font-weight: 600; text-align: left; background: linear-gradient(to right, #ffffff, rgb(236, 240, 245));">
+                  <td style="border-bottom: 1px solid #b5bbc8;">Date</td>
+                  <td style="border-bottom: 1px solid #b5bbc8;">Check In</td>
+                  <td style="border-bottom: 1px solid #b5bbc8;">Check Out</td>
+                  <td style="border-bottom: 1px solid #b5bbc8;">Break</td>
+                  <td style="border-bottom: 1px solid #b5bbc8;">Holiday</td>
+                  <td style="border-bottom: 1px solid #b5bbc8;">Worked Hour</td>
+                  <td style="color: white; background: #f56954">Check In</td>
+                  <td style="color: white; background: #f56954">Check Out</td>
+                  <td style="color: white; background:#3c8dbc">Check In</td>
+                  <td style="color: white; background:#3c8dbc">Check Out</td>
+                  <td style="color: white; background:hsl(213, 73%, 50%);">Check In</td>
+                  <td style="color: white; background:hsl(213, 73%, 50%);">Check Out</td>
+                </tr>
+                <tr>
+                  <td>05/09/2023</td>
+                  <td>8:00am</td>
+                  <td>11:45am</td>
+                  <td>30mns</td>
+                  <td>10hrs</td>
+                  <td>5hrs</td>
+                  <td>1:00pm</td>
+                  <td>2:50pm</td>
+                  <td>3:45pm</td>
+                  <td>5:00pm</td>
+                  <td>7:00pm</td>
+                  <td>9:00pm</td>
+                </tr>
+                <tr>
+                  <td>05/09/2023</td>
+                  <td>8:00am</td>
+                  <td>11:45am</td>
+                  <td>30mns</td>
+                  <td>10hrs</td>
+                  <td>5hrs</td>
+                  <td>1:00pm</td>
+                  <td>2:50pm</td>
+                  <td>3:45pm</td>
+                  <td>5:00pm</td>
+                  <td>7:00pm</td>
+                  <td>9:00pm</td>
+                </tr>
+                <tr>
+                  <td>05/09/2023</td>
+                  <td>8:00am</td>
+                  <td>11:45am</td>
+                  <td>30mns</td>
+                  <td>10hrs</td>
+                  <td>5hrs</td>
+                  <td>1:00pm</td>
+                  <td>2:50pm</td>
+                  <td>3:45pm</td>
+                  <td>5:00pm</td>
+                  <td>7:00pm</td>
+                  <td>9:00pm</td>
+                </tr>
+                <tr>
+                  <td>05/09/2023</td>
+                  <td>8:00am</td>
+                  <td>11:45am</td>
+                  <td>30mns</td>
+                  <td>10hrs</td>
+                  <td>5hrs</td>
+                  <td>1:00pm</td>
+                  <td>2:50pm</td>
+                  <td>3:45pm</td>
+                  <td>5:00pm</td>
+                  <td>7:00pm</td>
+                  <td>9:00pm</td>
+                </tr>
+                <tr>
+                  <td>05/09/2023</td>
+                  <td>8:00am</td>
+                  <td>11:45am</td>
+                  <td>30mns</td>
+                  <td>10hrs</td>
+                  <td>5hrs</td>
+                  <td>1:00pm</td>
+                  <td>2:50pm</td>
+                  <td>3:45pm</td>
+                  <td>5:00pm</td>
+                  <td>7:00pm</td>
+                  <td>9:00pm</td>
+                </tr>
+                <tr>
+                  <td>05/09/2023</td>
+                  <td>8:00am</td>
+                  <td>11:45am</td>
+                  <td>30mns</td>
+                  <td>10hrs</td>
+                  <td>5hrs</td>
+                  <td>1:00pm</td>
+                  <td>2:50pm</td>
+                  <td>3:45pm</td>
+                  <td>5:00pm</td>
+                  <td>7:00pm</td>
+                  <td>9:00pm</td>
+                </tr>
+                <tr>
+                  <td>05/09/2023</td>
+                  <td>8:00am</td>
+                  <td>11:45am</td>
+                  <td>30mns</td>
+                  <td>10hrs</td>
+                  <td>5hrs</td>
+                  <td>1:00pm</td>
+                  <td>2:50pm</td>
+                  <td>3:45pm</td>
+                  <td>5:00pm</td>
+                  <td>7:00pm</td>
+                  <td>9:00pm</td>
+                </tr>
+                <tr>
+                  <td>05/09/2023</td>
+                  <td>8:00am</td>
+                  <td>11:45am</td>
+                  <td>30mns</td>
+                  <td>10hrs</td>
+                  <td>5hrs</td>
+                  <td>1:00pm</td>
+                  <td>2:50pm</td>
+                  <td>3:45pm</td>
+                  <td>5:00pm</td>
+                  <td>7:00pm</td>
+                  <td>9:00pm</td>
+                </tr>
+                <tr>
+                  <td>05/09/2023</td>
+                  <td>8:00am</td>
+                  <td>11:45am</td>
+                  <td>30mns</td>
+                  <td>10hrs</td>
+                  <td>5hrs</td>
+                  <td>1:00pm</td>
+                  <td>2:50pm</td>
+                  <td>3:45pm</td>
+                  <td>5:00pm</td>
+                  <td>7:00pm</td>
+                  <td>9:00pm</td>
+                </tr>
+                <tr>
+                  <td>05/09/2023</td>
+                  <td>8:00am</td>
+                  <td>11:45am</td>
+                  <td>30mns</td>
+                  <td>10hrs</td>
+                  <td>5hrs</td>
+                  <td>1:00pm</td>
+                  <td>2:50pm</td>
+                  <td>3:45pm</td>
+                  <td>5:00pm</td>
+                  <td>7:00pm</td>
+                  <td>9:00pm</td>
+                </tr>
+                <tr>
+                  <td>05/09/2023</td>
+                  <td>8:00am</td>
+                  <td>11:45am</td>
+                  <td>30mns</td>
+                  <td>10hrs</td>
+                  <td>5hrs</td>
+                  <td>1:00pm</td>
+                  <td>2:50pm</td>
+                  <td>3:45pm</td>
+                  <td>5:00pm</td>
+                  <td>7:00pm</td>
+                  <td>9:00pm</td>
+                </tr>
+                </tfoot>
+            </table>
+          </div>
+        </div>
+      </div>
+      <!-- /.box-body -->
+      <!-- /.box -->
+
+    </div>
+    <!-- ./wrapper -->
+
+    <script>
+      // Get the current date
+      const currentDate = new Date();
+      // Define an array of month names
+      const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September",
+        "October", "November", "December"
+      ];
+      // Get the current month and year
+      const currentMonth = monthNames[currentDate.getMonth()];
+      const currentYear = currentDate.getFullYear();
+      // Display the month and year in the HTML element with id "monthYear"
+      const monthYearElement = document.getElementById("monthYear");
+      monthYearElement.textContent = currentMonth + " " + currentYear;
+      var namex = document.querySelector("#namex")
+      var nameLists = document.querySelectorAll(".name-option")
+      var rolex = document.querySelector("#rolex")
+      var roleLists = document.querySelectorAll(".role-option")
+      nameLists.forEach(element => {
+        element.onclick = () => {
+          namex.value = element.textContent;
+        };
+      });
+      roleLists.forEach(element => {
+        element.onclick = () => {
+          rolex.value = element.textContent;
+        };
+      });
+    </script>
+
+    <!-- jQuery 2.1.4 -->
+    <script src="../../plugins/jQuery/jQuery-2.1.4.min.js"></script>
+    <!-- Bootstrap 3.3.5 -->
+    <script src="../../bootstrap/js/bootstrap.min.js"></script>
+    <!-- Slimscroll -->
+    <script src="../../plugins/slimScroll/jquery.slimscroll.min.js"></script>
+    <!-- FastClick -->
+    <script src="../../plugins/fastclick/fastclick.js"></script>
+    <!-- AdminLTE App -->
+    <script src="../../dist/js/app.min.js"></script>
+    <!-- AdminLTE for demo purposes -->
+    <script src="../../dist/js/demo.js"></script>
+</body>
+
+</html>

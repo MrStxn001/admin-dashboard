@@ -1,0 +1,136 @@
+﻿
+.ShowHide
+{
+    color:#007c92 !important;
+    text-decoration:none !important;
+}
+.searchDetailFirstName {
+	color: #007C92;
+	font-size: 15px;
+}
+.searchDetailSurnameName {
+	color: #007C92;
+	font-size: 15px;
+    font-weight: bold;
+}
+.searchDetailAddress
+{
+    padding-left:10px;
+    width:80%;
+}
+.searchDetail {
+	text-align:left;
+	color: #494949;
+	font-size:1em;
+	width: 640px;
+	position: relative;
+}
+.searchDetailHidden {
+	text-align:left;
+	color: #494949;
+	font-size:1em;
+	position: relative;
+	margin-top: -5px;
+	margin-left: -5px;
+}
+.searchDetailHidden td{
+	vertical-align: text-top;
+}
+.searchDetail{
+    border: 1px solid #C8C8C8;
+}   
+.searchDetail td{
+	padding: 5px;
+	vertical-align: top;
+	border: 0px;
+}
+.searchDetailLeft {
+	width: 2px;
+	border-left: 1px solid #C8C8C8;
+}
+.searchDetailRight {
+	width: 2px;
+	border-right: 1px solid #C8C8C8;
+}
+.searchDetailHeader td {
+	background: url("/images/tools_top_detail.jpg") no-repeat;
+	height: 7px;
+	padding: 0px;
+}
+.searchDetail tr.searchDetailFooter {
+	background: url("/images/tools_base_search.jpg") no-repeat;
+	height: 7px;
+}
+.searchDetail tr.searchDetailRow {
+	background-color:#FFF8DC;
+	padding: 5px;
+}
+.searchDetailCategory {
+	font-weight: bold;
+}
+.searchDetailCategory_status
+{
+    font-weight: bold;
+    vertical-align:middle !important;
+}
+.searchDetailCheck {
+	text-align: right;
+	font-weight: bold;
+	color: #007C92 !important;
+}
+.searchDetailUntil {
+	color: #007C92 !important;
+	font-weight: bold;
+}
+.informationIcon {
+	float: right;
+}
+.searchDetailAddress .informationIcon {
+	float: right;
+}
+
+.mt-1 {
+    margin-top: 5px !important;
+}
+
+.margin-bottom {
+    margin-bottom: 10px !important;
+}
+
+.vcenter {
+    position: relative;
+    top: 0%;
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+}
+/* The heart of the matter */
+
+.testimonial-group > .row {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+    .testimonial-group > .row > .col-sm-12 {
+        display: inline-block;
+        float: none;
+    }
+
+.sidemargin {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.rowbackground {
+    background: #F5F4F0;
+}
+
+.col-centered {
+    display: block !important;
+    margin: 0 auto !important;
+}
+
+.centered {
+    text-align: center;
+    font-size: 0;
+}

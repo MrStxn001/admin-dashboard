@@ -1,0 +1,547 @@
+﻿
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+td {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+th {
+	font-family: Arial, Helvetica, sans-serif;
+}.Gap1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1px;
+	font-weight: normal;
+	color: #F0F0F0;
+	height: 40px;
+}
+.Base_Top {
+	background-image: url(../images/BaseTop.png);
+	background-repeat: no-repeat;
+	height: 21px;
+	width: 804px;
+}
+.Base_Bottom {
+	background-image: url(../images/BaseBottom.png);
+	background-repeat: no-repeat;
+	height: 21px;
+	width: 804px;
+}
+.Base_Middle {
+
+	background-image: url(../images/BaseMiddle.png);
+	background-repeat: repeat-y;
+	width: 804px;
+}
+.Field1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #666666;
+	background-color: #FFFFFF;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 30px;
+	width: 358px;
+	border: 1px solid #cacaca;
+	text-indent: 7px;
+}
+
+.Text1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #7F7F7F;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+}
+.Text2 {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #939393;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+}
+.Text2:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #666666;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	text-decoration: underline;
+	cursor: pointer;
+}.Gap2 {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1px;
+	font-weight: normal;
+	color: #FFFFFF;
+	height: 30px;
+}
+.Gap3 {
+
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1px;
+	font-weight: normal;
+	color: #FFFFFF;
+	height: 22px;
+}
+.Gap4 {
+
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1px;
+	font-weight: normal;
+	color: #FFFFFF;
+	height: 58px;
+}
+.Gap5 {
+
+
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1px;
+	font-weight: normal;
+	color: #FFFFFF;
+	height: 38px;
+}
+.HrisBg1 {
+	background-image: url(../images/HrisBg1.png);
+	background-repeat: no-repeat;
+	height: 494px;
+	width: 915px;
+}
+.Gap6 {
+
+
+
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1px;
+	font-weight: normal;
+	color: #F7F7F7;
+	height: 140px;
+}
+.Text3 {
+
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+}
+.Gap7 {
+
+
+
+
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1px;
+	font-weight: normal;
+	color: #F8F8F8;
+	height: 12px;
+}
+.Gap8 {
+
+
+
+
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1px;
+	font-weight: normal;
+	color: #F7F7F7;
+	height: 150px;
+}
+.Text4 {
+
+
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #666666;
+	letter-spacing: normal;
+	text-align: center;
+	vertical-align: middle;
+	word-spacing: normal;
+}
+.Text5 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	letter-spacing: normal;
+	text-align: center;
+	vertical-align: middle;
+	word-spacing: normal;
+	text-decoration: underline;
+}
+.Gap9 {
+
+
+
+
+
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1px;
+	font-weight: normal;
+	color: #F7F7F7;
+	height: 60px;
+}
+.HrisBg2 {
+
+	background-image: url(../images/HrisBg2.png);
+	background-repeat: no-repeat;
+	height: 494px;
+	width: 656px;
+}
+.Text6 {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #888888;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+}
+.Text6:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #888888;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	cursor: pointer;
+	background-color: #F9F9F9;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #FFFFFF;
+}
+.Gap10 {
+
+
+
+
+
+
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1px;
+	font-weight: normal;
+	color: #F0F0F0;
+	height: 12px;
+}
+.Text7 {
+
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	color: #5C5C5C;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+}
+.Text8 {
+
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #666666;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: baseline;
+	word-spacing: normal;
+}
+.Gap11 {
+
+
+
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1px;
+	font-weight: normal;
+	color: #FFFFFF;
+	height: 41px;
+}
+.HrisBg4 {
+
+	background-image: url(../images/HrisBg3.png);
+	background-repeat: no-repeat;
+	height: 494px;
+	width: 915px;
+}
+.Field11
+ {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	font-weight: normal;
+	color: #666666;
+	background-color: #FFFFFF;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	width: 390px;
+	border: 1px solid #cacaca;
+	left: auto;
+	top: auto;
+	right: auto;
+	bottom: auto;
+	clip: rect(auto,auto,auto,auto);
+	
+	height: 26px;
+	padding: 3px 12px 3px 12px;
+}
+.Field11
+{
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	font-weight: normal;
+	color: #666666;
+	background-color: #FFFFFF;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	width: 390px;
+	border: 1px solid #cacaca;
+	left: auto;
+	top: auto;
+	right: auto;
+	bottom: auto;
+	clip: rect(auto,auto,auto,auto);
+	
+	height: 26px;
+	padding: 3px 12px 3px 12px;
+}
+
+input 
+{
+	border:1px solid #999999;
+	outline:none;
+	border-radius:1px;
+	-moz-border-radius:1px;
+	-webkit-border-radius:1px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	font-weight: normal;
+	color: #666666;
+	
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	width: 390px;
+	left: auto;
+	top: auto;
+	right: auto;
+	bottom: auto;
+	clip: rect(auto,auto,auto,auto);
+		height: 26px;
+	padding: 3px 12px 3px 12px;
+}
+
+input:focus {
+	border:1px solid #8ec1da;
+	box-shadow:0 0 5px #7dbef1;
+	-moz-box-shadow:0px 0px 5px #7dbef1;
+	-webkit-box-shadow:0 0 20px #7dbef1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color='#8ec1da')";
+	background-color: #fafafa;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	font-weight: normal;
+	color: #666666;
+	
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	width: 390px;	
+	left: auto;
+	top: auto;
+	right: auto;
+	bottom: auto;
+	clip: rect(auto,auto,auto,auto);
+		height: 26px;
+	padding: 3px 12px 3px 12px;
+}
+.Signin_Button {
+	background-image: url(../images/SignIn.png);
+	background-repeat: no-repeat;
+width:97px;
+height:35px;border:none;
+	
+}
+.Signin_Button:hover {
+	background-image: url(../images/SignIn_Mo.png);
+	background-repeat: no-repeat;
+	width:97px;
+height:35px;border:none;
+	cursor: pointer;
+}
+.Error_Message {
+	height: 30px;
+}
+.Error_Message_Text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #993300;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+}
+.Error_Message_Text2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #640000;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: baseline;
+	word-spacing: normal;
+}
+.Error_Message2 {
+
+	height: 58px;
+}
+.Text9 {
+
+
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #0099FF;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: baseline;
+	word-spacing: normal;
+}
+.Gap12 {
+
+
+
+
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1px;
+	font-weight: normal;
+	color: #FFFFFF;
+	height: 16px;
+}
+.Gap13 {
+
+
+
+
+
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1px;
+	font-weight: normal;
+	color: #FFFFFF;
+	height: 28px;
+}
+.Text10 {
+
+
+
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #999999;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: baseline;
+	word-spacing: normal;
+}
+.Cloud2 {
+
+	background-image: url(../images/Cloud2.png);
+	height: 146px;
+	width: 207px;
+	background-repeat: no-repeat;
+}
+.Text_ToolTip {
+
+
+
+
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #666666;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+}
+.Text_ToolTip2 {
+
+
+
+
+
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #666666;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: baseline;
+	word-spacing: normal;
+}
+.Base_Top_ToolTip {
+	background-image: url(../images/BaseTop_ToolTip.png);
+	background-repeat: no-repeat;
+	height: 15px;
+	width: 804px;
+	background-position: bottom;
+}
+.Base_Bottom_ToolTip {
+
+	background-image: url(../images/BaseBottom_ToolTip.png);
+	background-repeat: no-repeat;
+	height: 14px;
+	width: 804px;
+}
+.img
+{
+	border:none;
+	
+	}

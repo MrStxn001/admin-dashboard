@@ -1,0 +1,2486 @@
+
+
+#outerlogo {
+  width: 100%;
+  text-align: center;
+}
+
+#innerlogo {
+  display: inline-block;
+}
+
+
+
+.TopHeaderTxt {
+	background-color:white;
+    color: #696969;
+    max-width: 800px;
+    padding: 0 4px 4px;
+}
+
+
+
+.RoundedDivStyle
+{
+	width: 98%;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	border: 3px solid #AA1741;
+	 
+	-webkit-box-shadow: #BEBEBE 11px 11px 11px;
+	-moz-box-shadow: #BEBEBE 11px 11px 11px;
+	box-shadow: #BEBEBE 11px 11px 11px;
+	 background: none repeat scroll 0 center rgba(237, 237, 237, 0.95);
+	/*	background: none repeat scroll 0 rgba(57, 85, 100, 1); */
+	/* background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2); */
+    border: 1px solid #ccc;
+padding-top:10px;padding-bottom:10px;
+}
+
+.tdblackcol
+{
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 11px;
+	COLOR: #000000;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+
+
+
+body
+{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+td
+{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+th
+{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.BarBg
+{
+	background-image: url(../images/BarBg1.png);
+	background-repeat: repeat-x;
+	height: 32px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #000000;
+	letter-spacing: normal;
+	text-indent: 7px;
+	vertical-align: middle;
+	word-spacing: normal;
+}
+
+.Text1
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+	letter-spacing: normal;
+	text-align: left;
+	text-indent: 8px;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 23px;
+	background-color: #F5F5F5;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #999999;
+}
+
+.GridDetailinfo
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+	letter-spacing: normal;
+	text-align: left;
+	text-indent: 8px;
+	vertical-align: middle;
+	word-spacing: normal;
+	background-color: #F5F5F5;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #999999;
+}
+
+
+.GridDetailinfowh
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+	letter-spacing: normal;
+	text-align: left;
+	text-indent: 8px;
+	vertical-align: middle;
+	word-spacing: normal;
+	background-color: #F5F5F5;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #999999;
+	border-color: #ffffff;
+}
+
+.GridTop1
+{
+	background-image: url(../images/GridTop.jpg);
+	background-repeat: repeat-x;
+	height: 30px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #465562;
+	letter-spacing: normal;
+	text-align: left;
+	text-indent: 8px;
+	vertical-align: middle;
+	word-spacing: normal;
+	border-right-width: 0px;
+	/*border-right-width: 1px;*/
+	border-right-style: dotted;
+	border-right-color: #BCBCBC;
+}
+
+
+.Grid_Top1
+{
+	background-image: url(../images/GridTop.jpg);
+	background-repeat: repeat-x;
+	height: 30px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #465562;
+	letter-spacing: normal;
+	text-align: center;
+	text-indent: 8px;
+	vertical-align: middle;
+	word-spacing: normal;
+	border-right-width: 1px;
+	border-right-style: dotted;
+	border-right-color: #BCBCBC;
+}
+
+
+.Text2
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #465562;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 26px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	background-color: #F5F5F5;
+	border-right-width: 1px;
+	border-right-style: dotted;
+	border-right-color: #999999;
+	text-indent: 6px;
+}
+
+	.Text2:hoverrrrr
+	{
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 12px;
+		font-weight: bold;
+		color: #FFFFFF;
+		letter-spacing: normal;
+		text-align: left;
+		vertical-align: middle;
+		word-spacing: normal;
+		height: 26px;
+		background-color: #333333;
+		cursor: pointer;
+	}
+
+	.Text2:selected
+	{
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 12px;
+		font-weight: bold;
+		color: #FFFFFF;
+		letter-spacing: normal;
+		text-align: left;
+		vertical-align: middle;
+		word-spacing: normal;
+		height: 26px;
+		background-color: #333333;
+		cursor: pointer;
+	}
+
+.Bar3
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #990000;
+	letter-spacing: normal;
+	text-align: left;
+	text-indent: 8px;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 28px;
+	background-color: #F7F8F9;
+	border-top-width: 1px;
+	border-top-style: dotted;
+	border-top-color: #9A9A9A;
+}
+
+.TextField1
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #333333;
+	letter-spacing: normal;
+	text-align: left;
+	text-indent: 7px;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 17px;
+	width: 170px;
+	border: 1px solid #D1D1D1;
+}
+
+.Text3
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #465562;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 24px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	background-color: #FCFCFC;
+	border-right-width: 1px;
+	border-right-style: dotted;
+	border-right-color: #999999;
+	text-indent: 6px;
+}
+
+.TextField2
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #333333;
+	letter-spacing: normal;
+	text-align: left;
+	text-indent: 2px;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 17px;
+	width: 184px;
+	border: 1px solid #FCFCFC;
+}
+
+.GridMiddle1
+{
+	height: 24px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color:black;
+	letter-spacing: normal;
+	text-align: left;
+	text-indent: 1px;
+	vertical-align: middle;
+	word-spacing: normal;
+	background-color: #F0F0F0;
+	border-right-width: 0px;
+	/*border-right-width: 1px;*/
+	border-right-style: dotted;
+	border-right-color: #BCBCBC;
+}
+
+	.GridMiddle1:hover
+	{
+		height: 24px;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 10px;
+		font-style: normal;
+		font-weight: normal;
+		font-variant: normal;
+		color:black;
+		/* color: #465562;*/
+		letter-spacing: normal;
+		text-align: left;
+		text-indent: 1px;
+		vertical-align: middle;
+		word-spacing: normal;
+		background-color: #D7D7D7;
+		border-right-width: 1px;
+		border-right-style: dotted;
+		border-right-color: #BCBCBC;
+		cursor: pointer;
+	}
+
+
+.GridMiddle2
+{
+	height: 24px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color:black;
+	letter-spacing: normal;
+	text-align: left;
+	text-indent: 1px;
+	vertical-align: middle;
+	word-spacing: normal;
+	background-color: #F9F9F9;
+	border-right-width: 1px;
+	border-right-style: dotted;
+	border-right-color: #BCBCBC;
+}
+
+.GridMiddles
+{
+	height: 24px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color:black;
+	letter-spacing: normal;
+	text-align: left;
+	text-indent: 1px;
+	vertical-align: middle;
+	word-spacing: normal;
+}
+
+
+
+.GridMiddle2:hover
+{
+	height: 24px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #465562;
+	letter-spacing: normal;
+	text-align: left;
+	text-indent: 1px;
+	vertical-align: middle;
+	word-spacing: normal;
+	border-right-width: 1px;
+	border-right-style: dotted;
+	border-right-color: #BCBCBC;
+	cursor: pointer;
+	background-color: #D7D7D7;
+}
+
+.Text4
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #333333;
+	letter-spacing: normal;
+	text-align: left;
+	text-indent: 8px;
+	vertical-align: top;
+	word-spacing: normal;
+	height: 23px;
+	background-color: #F5F5F5;
+}
+
+	.Text4:hover
+	{
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 12px;
+		font-weight: bold;
+		color: #333333;
+		letter-spacing: normal;
+		text-align: left;
+		text-indent: 8px;
+		vertical-align: top;
+		word-spacing: normal;
+		height: 23px;
+		background-color: #F5F5F5;
+		text-decoration: underline;
+		cursor: help;
+	}
+
+.GridMiddle_ForIcon
+{
+	height: 24px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #465562;
+	letter-spacing: normal;
+	text-align: center;
+	vertical-align: middle;
+	word-spacing: normal;
+	background-color: #F9F9F9;
+	border-right-width: 1px;
+	border-right-style: dotted;
+	border-right-color: #BCBCBC;
+	cursor: pointer;
+}
+
+.GridMiddle_ForIcon2
+{
+	height: 24px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #465562;
+	letter-spacing: normal;
+	text-align: center;
+	vertical-align: middle;
+	word-spacing: normal;
+	background-color: #F0F0F0;
+	border-right-width: 1px;
+	border-right-style: dotted;
+	border-right-color: #BCBCBC;
+	cursor: pointer;
+}
+
+.GridBottom
+{
+	height: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #465562;
+	letter-spacing: normal;
+	text-align: left;
+	text-indent: 8px;
+	vertical-align: middle;
+	word-spacing: normal;
+	background-color: #FFFFFF;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #DDDDDD;
+	background-image: url(../images/GridTop.jpg);
+}
+
+
+.GridPageBottom
+{
+	height: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #465562;
+	letter-spacing: normal;
+	text-align: right;
+	text-indent: 8px;
+	vertical-align: middle;
+	word-spacing: normal;
+	background-color: #FFFFFF;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #DDDDDD;
+	background-image: url(../images/GridTop.jpg);
+}
+
+.Gap_Pass_reset1
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1px;
+	font-weight: normal;
+	color: #FFFFFF;
+	height: 10px;
+}
+
+.Text5
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 26px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+	background-color: #515151;
+	border-right-width: 1px;
+	border-right-style: dotted;
+	border-right-color: #000000;
+	text-indent: 6px;
+}
+
+	.Text5:hover
+	{
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 12px;
+		font-weight: bold;
+		color: #000000;
+		letter-spacing: normal;
+		text-align: left;
+		vertical-align: middle;
+		word-spacing: normal;
+		height: 26px;
+		border-bottom-width: 1px;
+		border-bottom-style: solid;
+		border-bottom-color: #000000;
+		background-color: #BFBFBF;
+		border-right-width: 1px;
+		border-right-style: dotted;
+		border-right-color: #000000;
+		text-indent: 6px;
+		cursor: pointer;
+	}
+
+.TextField3
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #333333;
+	letter-spacing: normal;
+	text-align: left;
+	text-indent: 2px;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 18px;
+	width: 215px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-top-color: #EEEEEE;
+	border-bottom-color: #EEEEEE;
+	border-left-color: #EEEEEE;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-width: 1px;
+	border-right-style: double;
+	border-right-color: #EEEEEE;
+}
+
+.Text6
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 26px;
+	text-indent: 6px;
+}
+
+.Gap_6
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1px;
+	font-weight: normal;
+	color: #FFFFFF;
+	height: 10px;
+}
+
+.TextField4
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #333333;
+	letter-spacing: normal;
+	text-align: left;
+	text-indent: 5px;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 18px;
+	width: 187px;
+	border: 1px solid #C4C4C4;
+}
+
+.BarBg2
+{
+	background-image: url(../images/BarBg1.png);
+	background-repeat: repeat-x;
+	height: 30px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #800000;
+	letter-spacing: normal;
+	text-indent: 7px;
+	vertical-align: middle;
+	word-spacing: normal;
+}
+
+.BarBg3
+{
+	background-image: url(../images/BarBg1.png);
+	background-repeat: repeat-x;
+	height: 32px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #000000;
+	letter-spacing: normal;
+	text-indent: 7px;
+	vertical-align: middle;
+	word-spacing: normal;
+	border-right-width: 1px;
+	border-right-style: dotted;
+	border-right-color: #A7A7A7;
+}
+
+.Text7
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 26px;
+	text-indent: 6px;
+}
+
+.Text8
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 26px;
+	text-indent: 6px;
+}
+
+.lIne2
+{
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #C0C0C0;
+	background-color: #EEEEEE;
+}
+
+.ResetPassword_Icon
+{
+	background-image: url(../images/reset1.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 20px;
+	width: 20px;
+	background-color: #F0F0F0;
+	border-right-width: 1px;
+	border-right-style: dotted;
+	border-right-color: #BCBCBC;
+	cursor: Pointer;
+}
+
+	.ResetPassword_Icon:hover
+	{
+		background-image: url(../images/reset2.png);
+		background-repeat: no-repeat;
+		background-position: center center;
+		height: 20px;
+		width: 20px;
+		background-color: #F0F0F0;
+		border-right-width: 1px;
+		border-right-style: dotted;
+		border-right-color: #BCBCBC;
+		cursor: Pointer;
+	}
+
+.ResetPassword_Icon2
+{
+	background-image: url(../images/reset1.png);
+	background-repeat: no-repeat;
+	height: 20px;
+	width: 20px;
+	background-color: #F9F9F9;
+	border-right-width: 1px;
+	border-right-style: dotted;
+	border-right-color: #BCBCBC;
+	cursor: Pointer;
+	background-position: center center;
+}
+
+	.ResetPassword_Icon2:hover
+	{
+		background-image: url(../images/reset2.png);
+		background-repeat: no-repeat;
+		background-position: center center;
+		height: 20px;
+		width: 20px;
+		background-color: #F9F9F9;
+		border-right-width: 1px;
+		border-right-style: dotted;
+		border-right-color: #BCBCBC;
+		cursor: Pointer;
+	}
+
+.Text_Grid_Heading
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	text-indent: 6px;
+}
+
+.BarBg7
+{
+	background-image: url(../images/BarBg1.png);
+	background-repeat: repeat-x;
+	height: 32px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #000066;
+	letter-spacing: normal;
+	text-indent: 7px;
+	vertical-align: middle;
+	word-spacing: normal;
+	border-right-width: 1px;
+	border-right-style: dotted;
+	border-right-color: #A7A7A7;
+}
+
+.TextField7
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #333333;
+	letter-spacing: normal;
+	text-align: left;
+	text-indent: 2px;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 18px;
+	width: 215px;
+}
+
+.BarTop1
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	letter-spacing: normal;
+	text-align: left;
+	text-indent: 8px;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 23px;
+	background-color: #E6E6E6;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #999999;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #C8C8C8;
+}
+
+.BarTop2
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #666666;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 26px;
+	text-indent: 6px;
+	background-color: #FFFFFF;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CECECE;
+}
+
+.BarTop3
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #666666;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 26px;
+	text-indent: 6px;
+	background-color: #FFFFFF;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-top-color: #CECECE;
+	border-right-color: #CECECE;
+}
+
+.BarTop4
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #666666;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 26px;
+	text-indent: 6px;
+	background-color: #FFFFFF;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-top-color: #CECECE;
+	border-right-color: #CECECE;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CECECE;
+}
+
+.Text9
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 18px;
+	text-indent: 6px;
+	background-color: #E6E6E6;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #999999;
+}
+
+.BarTop6
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 26px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+	background-color: #515151;
+	border-right-width: 1px;
+	border-right-style: dotted;
+	border-right-color: #000000;
+	text-indent: 6px;
+}
+
+.Border1
+{
+	border: 1px solid #E9E9E9;
+}
+
+.Text10
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #502403;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 18px;
+	text-indent: 6px;
+	background-color: #f9ead6;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #7E5112;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #7E5112;
+}
+
+.Text11
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 18px;
+	text-indent: 6px;
+	background-color: #FFF9F0;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #ACACAC;
+}
+
+.Text13
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #502403;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 18px;
+	text-indent: 6px;
+	background-color: #F9EAD6;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #7E5112;
+}
+
+.Text12
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 18px;
+	text-indent: 6px;
+	background-color: #FFF9F0;
+}
+
+.Text15
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 18px;
+	text-indent: 6px;
+	background-color: #FFF9F0;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #BFBFBF;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #BFBFBF;
+}
+
+.Text16
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 18px;
+	text-indent: 6px;
+	background-color: #515151;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #ACACAC;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #ACACAC;
+}
+
+.BarTop7
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #990000;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 26px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+	background-color: #E6E6E6;
+	border-right-width: 1px;
+	border-right-style: dotted;
+	border-right-color: #000000;
+	text-indent: 6px;
+}
+
+.BarBg_PayCheck
+{
+	background-image: url(../images/BarBg1.png);
+	background-repeat: repeat-x;
+	height: 32px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #000000;
+	letter-spacing: normal;
+	text-indent: 3px;
+	vertical-align: middle;
+	word-spacing: normal;
+	border-right-width: 1px;
+	border-right-style: dotted;
+	border-right-color: #A7A7A7;
+	text-align: center;
+}
+
+.BarTop8
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 26px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+	background-color: #515151;
+	text-indent: 12px;
+}
+
+.Text17
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #666666;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 18px;
+	text-indent: 6px;
+	background-color: #F4F4F4;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #ACACAC;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #ACACAC;
+}
+
+.Border2
+{
+	border: 1px solid #DFDFDF;
+}
+
+.Text18
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 18px;
+	text-indent: 6px;
+}
+
+.Gap_7
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1px;
+	font-weight: normal;
+	color: #FFFFFF;
+	height: 22px;
+}
+
+.Gap_8
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1px;
+	font-weight: normal;
+	color: #FFFFFF;
+	height: 7px;
+}
+
+.Area1
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #666666;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 26px;
+	text-indent: 6px;
+	background-color: #FFFFFF;
+}
+
+.Area2
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #666666;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 26px;
+	text-indent: 6px;
+	background-color: #FFFFFF;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CECECE;
+}
+
+.Area3
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #666666;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 26px;
+	text-indent: 6px;
+	background-color: #FFFFFF;
+}
+
+.Area4
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #666666;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 26px;
+	text-indent: 6px;
+	background-color: #FFFFFF;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CECECE;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CECECE;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CECECE;
+}
+
+.AreaTop1
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	letter-spacing: normal;
+	text-align: left;
+	text-indent: 8px;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 23px;
+	background-color: #E6E6E6;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #999999;
+}
+
+.AreaTop2
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	letter-spacing: normal;
+	text-align: left;
+	text-indent: 8px;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 23px;
+	background-color: #E6E6E6;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #999999;
+}
+
+.AreaTop3
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	letter-spacing: normal;
+	text-align: left;
+	text-indent: 8px;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 23px;
+	background-color: #E6E6E6;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #999999;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CCCCCC;
+}
+
+.Area5
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #666666;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 26px;
+	text-indent: 6px;
+	background-color: #FFFFFF;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #999999;
+}
+
+.Area6
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #666666;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 26px;
+	text-indent: 6px;
+	background-color: #FFFFFF;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CECECE;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CECECE;
+}
+
+.Area7
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #666666;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 26px;
+	text-indent: 6px;
+	background-color: #FFFFFF;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CECECE;
+}
+
+.Area8
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #666666;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 26px;
+	text-indent: 6px;
+	background-color: #FFFFFF;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CECECE;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CECECE;
+}
+
+.Area9
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #666666;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 26px;
+	text-indent: 6px;
+	background-color: #FFFFFF;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CECECE;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CECECE;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CECECE;
+}
+
+.Area10
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #666666;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 26px;
+	text-indent: 6px;
+	background-color: #FFFFFF;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CECECE;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CECECE;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CECECE;
+}
+
+.Area_N1
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #666666;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 26px;
+	text-indent: 6px;
+	background-color: #F8F8F8;
+}
+
+.Area_N2
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #666666;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 26px;
+	text-indent: 6px;
+	background-color: #F8F8F8;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CECECE;
+}
+
+.Area_N4
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #666666;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 26px;
+	text-indent: 6px;
+	background-color: #F8F8F8;
+}
+
+.Area_N3
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #666666;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 26px;
+	text-indent: 6px;
+	background-color: #F8F8F8;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CECECE;
+}
+
+.TextCheckAmount
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	letter-spacing: normal;
+	text-align: center;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 18px;
+	background-color: #515151;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #ACACAC;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #ACACAC;
+}
+
+.TextCheckAmount2
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	letter-spacing: normal;
+	text-align: center;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 33px;
+	background-color: #FFFFFF;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #ACACAC;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #ACACAC;
+}
+
+.SecondBar
+{
+	height: 24px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #333333;
+	letter-spacing: normal;
+	text-align: left;
+	text-indent: 8px;
+	vertical-align: middle;
+	word-spacing: normal;
+	background-color: #f0f0f0;
+	/* border-right-width: */
+}
+
+/*
+.rpttext
+{
+    font-family:tahoma, arial, verdana;
+			font-size:11px;
+			color:#888;
+			height:18px; 
+			background-color:White;
+			border-bottom: dotted 1px #a6c2bb;
+    text-align: left;
+    width: 300px;
+}
+
+*/
+
+.rpttext
+{
+	font-family: tahoma, arial, verdana;
+	font-size: 11px;
+	color: #888;
+	height: 18px;
+	background-color: White;
+	border-bottom: dotted 1px #a6c2bb;
+	text-align: left;
+}
+
+
+
+.rptbottomtext
+{
+	font-family: tahoma, arial, verdana;
+	font-size: 11px;
+	color: #888;
+	height: 18px;
+	background-color: White;
+	text-align: left;
+}
+
+
+
+
+.rptinfoborder
+{
+	border: dotted 1px #a6c2bb;
+}
+
+
+.rpttxtborder
+{
+	font-family: tahoma, arial, verdana;
+	font-size: 11px;
+	color: #888;
+	background-color: White;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #999999;
+	border-color: #ffffff;
+}
+
+.rpttxt
+{
+	font-family: tahoma, arial, verdana;
+	font-size: 11px;
+	color: #888;
+	background-color: White;
+}
+
+.RptHeader
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 16px;
+	background-color: #515151;
+	/*  border-style*:ridge; */
+}
+
+
+
+.RptCENHeader
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	letter-spacing: normal;
+	text-align: center;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 16px;
+	background-color: #515151;
+	/*  border-style*:ridge; */
+}
+
+.tdGridinfo14
+{
+	border-right: 1px solid #272727;
+	border-bottom: 1px solid #272727;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	text-indent: 6px;
+	background-color: #515151;
+	font-weight: bold;
+	height: 25px;
+}
+
+.tdGridinfo12
+{
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 11px;
+	COLOR: #000000;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	background-color: #ECECEC;
+	text-align: right;
+	vertical-align: middle;
+}
+
+.tdGridinfo
+{
+	border-right: 1px solid #272727;
+	border-bottom: 1px solid #272727;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	text-indent: 6px;
+	background-color: #515151;
+	font-weight: 700;
+}
+
+.Color2
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 18px;
+	text-indent: 6px;
+	background-color: #FFF9F0;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #BFBFBF;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #BFBFBF;
+}
+
+.Text61
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: baseline;
+	word-spacing: normal;
+	height: 26px;
+	text-indent: 6px;
+}
+
+.Text62
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: baseline;
+	word-spacing: normal;
+	height: 26px;
+	text-indent: 6px;
+}
+
+.GridM1
+{
+	height: 24px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #465562;
+	letter-spacing: normal;
+	text-align: left;
+	text-indent: 8px;
+	vertical-align: middle;
+	word-spacing: normal;
+	background-color: #F0F0F0;
+	border-right-width: 1px;
+	border-right-style: dotted;
+	border-right-color: #BCBCBC;
+}
+
+.TextField_CompanyId
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #333333;
+	letter-spacing: normal;
+	text-align: left;
+	text-indent: 2px;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 18px;
+	width: 300px;
+	border: 1px solid #DFDFDF;
+}
+
+.TextField_Others
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #333333;
+	letter-spacing: normal;
+	text-align: left;
+	text-indent: 5px;
+	vertical-align: middle;
+	word-spacing: normal;
+	height: 18px;
+	width: 301px;
+	border: 1px solid #C4C4C4;
+}
+
+.Text63
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #990000;
+	letter-spacing: normal;
+	text-align: right;
+	vertical-align: baseline;
+	word-spacing: normal;
+	height: 6px;
+	text-indent: 22px;
+}
+
+.Step1_Bg
+{
+	background-image: url(../images/step1Bg.gif);
+	background-repeat: no-repeat;
+	height: 656px;
+	width: 1000px;
+}
+
+.Step1_Gap1
+{
+	height: 210px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1px;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+
+.Step1_TextField1
+{
+	height: 22px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #333333;
+	letter-spacing: normal;
+	text-align: left;
+	text-indent: 7px;
+	vertical-align: middle;
+	word-spacing: normal;
+	width: 387px;
+	border: 1px solid #FFFFFF;
+}
+
+.Step2_Bg
+{
+	background-image: url(../images/step2Bg.gif);
+	background-repeat: no-repeat;
+	height: 656px;
+	width: 1000px;
+}
+
+.Step3_Bg
+{
+	background-image: url(../images/step3Bg.gif);
+	background-repeat: no-repeat;
+	height: 656px;
+	width: 1000px;
+}
+
+.Step1_TextField2
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #333333;
+	border: 1px solid #FFFFFF;
+	height: 22px;
+	width: 387px;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+}
+
+.Gap_12
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1px;
+	font-weight: normal;
+	color: #FFFFFF;
+	height: 48px;
+}
+
+.Step1_Bg2
+{
+	background-image: url(../images/step1Bg2.gif);
+	background-repeat: no-repeat;
+	height: 656px;
+	width: 1000px;
+}
+
+.Step2_Bg2
+{
+	background-image: url(../images/step2Bg2.gif);
+	background-repeat: no-repeat;
+	height: 656px;
+	width: 1000px;
+}
+
+.Step3_Bg2
+{
+	background-image: url(../images/step3Bg2.gif);
+	background-repeat: no-repeat;
+	height: 656px;
+	width: 1000px;
+}
+
+.Step1_Bg3
+{
+	background-image: url(../images/step1Bg3.gif);
+	background-repeat: no-repeat;
+	height: 656px;
+	width: 1000px;
+}
+
+.Step2_Bg3
+{
+	background-image: url(../images/step2Bg3.gif);
+	background-repeat: no-repeat;
+	height: 656px;
+	width: 1000px;
+}
+
+.Step3_Bg3
+{
+	background-image: url(../images/step3Bg3.gif);
+	background-repeat: no-repeat;
+	height: 656px;
+	width: 1000px;
+}
+
+.Gap_13
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1px;
+	font-weight: normal;
+	color: #FFFFFF;
+	height: 150px;
+}
+
+.Text64
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #666666;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+}
+
+	.Text64:hover
+	{
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 11px;
+		font-weight: normal;
+		color: #666666;
+		letter-spacing: normal;
+		text-align: left;
+		vertical-align: middle;
+		word-spacing: normal;
+		cursor: pointer;
+		text-decoration: underline;
+	}
+
+.Gap_14
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1px;
+	font-weight: normal;
+	color: #FFFFFF;
+	height: 289px;
+}
+
+.Step2_Bg5
+{
+	background-image: url(../images/step22Bg.gif);
+	background-repeat: no-repeat;
+	height: 656px;
+	width: 1000px;
+}
+
+.Step2_Gap5
+{
+	height: 196px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1px;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+
+.Step2_Gap6
+{
+	height: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1px;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+
+.Step2_Bg2
+{
+	background-image: url(../images/step21.gif);
+	background-repeat: no-repeat;
+	height: 656px;
+	width: 1000px;
+}
+
+.Gap_15
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1px;
+	font-weight: normal;
+	color: #FFFFFF;
+	height: 158px;
+}
+
+.Dropdown1
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #333333;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+}
+
+.trSearchbox
+{
+	background-color: #EAF3FF;
+}
+
+.SB1
+{
+	height: 24px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #333333;
+	letter-spacing: normal;
+	text-align: left;
+	text-indent: 8px;
+	vertical-align: middle;
+	word-spacing: normal;
+	background-color: #f0f0f0;
+}
+
+.SBleft
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #333333;
+	letter-spacing: normal;
+	text-align: left;
+	text-indent: 8px;
+	vertical-align: middle;
+	word-spacing: normal;
+}
+
+.SBright
+{
+	height: 24px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #333333;
+	letter-spacing: normal;
+	text-align: right;
+	text-indent: 8px;
+	vertical-align: middle;
+	word-spacing: normal;
+}
+
+
+
+A.HeaderLink:link
+{
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 11px;
+	COLOR: #666666;
+	FONT-FAMILY: arial;
+	TEXT-DECORATION: none;
+}
+
+A.HeaderLink:visited
+{
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 11px;
+	COLOR: #666666;
+	FONT-FAMILY: arial;
+	TEXT-DECORATION: none;
+}
+
+A.HeaderLink:hover
+{
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 11px;
+	COLOR: #666666;
+	FONT-FAMILY: arial;
+	TEXT-DECORATION: underline;
+}
+
+A.HeaderLink:active
+{
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 11px;
+	COLOR: #666666;
+	FONT-FAMILY: arial;
+	TEXT-DECORATION: none;
+}
+
+.Textsearchcs
+{
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 11px;
+	COLOR: #3e3e3e;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+}
+
+.SBHeader
+{
+	height: 24px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	letter-spacing: normal;
+	font-weight: bold;
+	text-align: right;
+	text-indent: 8px;
+	vertical-align: middle;
+	word-spacing: normal;
+	color: #000000;
+	background-color: #e8f7f6;
+}
+
+.GridMiddle11
+{
+	height: 24px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #465562;
+	letter-spacing: normal;
+	text-align: center;
+	vertical-align: middle;
+	word-spacing: normal;
+	background-color: #F0F0F0;
+	border-right-width: 1px;
+	border-right-style: dotted;
+	border-right-color: #BCBCBC;
+}
+
+.Txtgrid
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #465562;
+	letter-spacing: normal;
+	vertical-align: middle;
+	word-spacing: normal;
+}
+
+.GridMiddle11:hover
+{
+	height: 24px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #465562;
+	letter-spacing: normal;
+	text-align: center;
+	vertical-align: middle;
+	word-spacing: normal;
+	background-color: #d7d7d7;
+	border-right-width: 1px;
+	border-right-style: dotted;
+	border-right-color: #BCBCBC;
+	cursor: pointer;
+}
+
+.GridMiddle111
+{
+	height: 24px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #465562;
+	letter-spacing: normal;
+	text-align: center;
+	vertical-align: middle;
+	word-spacing: normal;
+	background-color: #F9F9F9;
+	border-right-width: 1px;
+	border-right-style: dotted;
+	border-right-color: #BCBCBC;
+}
+
+	.GridMiddle111:hover
+	{
+		height: 24px;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 11px;
+		font-style: normal;
+		font-weight: normal;
+		font-variant: normal;
+		color: #465562;
+		letter-spacing: normal;
+		text-align: center;
+		vertical-align: middle;
+		word-spacing: normal;
+		background-color: #d7d7d7;
+		border-right-width: 1px;
+		border-right-style: dotted;
+		border-right-color: #BCBCBC;
+		cursor: pointer;
+	}
+
+.GridTop11
+{
+	height: 30px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #FFFFFF;
+	letter-spacing: normal;
+	text-align: left;
+	text-indent: 8px;
+	vertical-align: middle;
+	word-spacing: normal;
+	border-right-width: 1px;
+	border-right-style: dotted;
+	border-right-color: #BCBCBC;
+	background-color: #515151;
+}
+
+.Text65
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #003333;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	text-indent: 7px;
+	background-color: #F0F0F0;
+	height: 26px;
+}
+
+	.Text65:hover
+	{
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 12px;
+		font-weight: normal;
+		color: #FFFFFF;
+		letter-spacing: normal;
+		text-align: left;
+		vertical-align: middle;
+		word-spacing: normal;
+		text-indent: 7px;
+		background-color: #333333;
+		height: 26px;
+		cursor: Pointer;
+	}
+
+.Text66
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #333333;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	text-indent: 7px;
+	background-color: #f0f0f0;
+	height: 26px;
+}
+
+.Text67
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #003333;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	text-indent: 7px;
+	background-color: #FBFBFB;
+	height: 26px;
+}
+
+.Text68
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #272727;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: baseline;
+	word-spacing: normal;
+	height: 26px;
+	text-decoration: underline;
+}
+
+	.Text68:hover
+	{
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 12px;
+		font-weight: bold;
+		color: #990000;
+		letter-spacing: normal;
+		text-align: left;
+		vertical-align: baseline;
+		word-spacing: normal;
+		height: 26px;
+		text-decoration: underline;
+		cursor: pointer;
+	}
+
+.Gap_16
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1px;
+	font-weight: normal;
+	color: #FFFFFF;
+	height: 2px;
+	background-color: #F9FBFB;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #C9C9C9;
+}
+
+.GridTop111
+{
+	height: 30px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #000000;
+	letter-spacing: normal;
+	text-align: left;
+	text-indent: 8px;
+	vertical-align: middle;
+	word-spacing: normal;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #BCBCBC;
+	background-color: #ECECEC;
+}
+
+.GridMiddleVeryRight1
+{
+	height: 24px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #465562;
+	letter-spacing: normal;
+	text-align: center;
+	vertical-align: middle;
+	word-spacing: normal;
+	background-color: #F0F0F0;
+}
+
+	.GridMiddleVeryRight1:hover
+	{
+		height: 24px;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 11px;
+		font-style: normal;
+		font-weight: normal;
+		font-variant: normal;
+		color: #465562;
+		letter-spacing: normal;
+		text-align: center;
+		vertical-align: middle;
+		word-spacing: normal;
+		background-color: #d7d7d7;
+		cursor: pointer;
+	}
+
+.GridMiddleVeryRight2
+{
+	height: 24px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #465562;
+	letter-spacing: normal;
+	text-align: center;
+	vertical-align: middle;
+	word-spacing: normal;
+	background-color: #F9F9F9;
+}
+
+	.GridMiddleVeryRight2:hover
+	{
+		height: 24px;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 11px;
+		font-style: normal;
+		font-weight: normal;
+		font-variant: normal;
+		color: #465562;
+		letter-spacing: normal;
+		text-align: center;
+		vertical-align: middle;
+		word-spacing: normal;
+		background-color: #d7d7d7;
+		cursor: pointer;
+	}
+
+.BarBgTop1
+{
+	background-image: url(../images/BarBg1.png);
+	background-repeat: repeat-x;
+	height: 32px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	 
+	letter-spacing: normal;
+	text-indent: 7px;
+	vertical-align: middle;
+	word-spacing: normal;
+	/*
+	border-right-width: 1px;
+	*/
+	border-right-width: 0px;
+	border-right-style: dotted;
+	border-right-color: #A7A7A7;
+
+	color: Black;
+  
+    
+}
+
+
+ .control-label {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+input[disabled], select[disabled], textarea[disabled], input[readonly], select[readonly], textarea[readonly] {
+    background-color: #fff;
+    cursor: not-allowed;
+}

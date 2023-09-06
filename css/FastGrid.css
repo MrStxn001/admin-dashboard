@@ -1,0 +1,128 @@
+﻿.GridTop1 {
+    background-image: url("../images/GridTop.jpg");
+    background-repeat: repeat-x;
+    border-right: 1px dotted #bcbcbc;
+    color: #465562;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    height: 30px;
+    letter-spacing: normal;
+    text-align: left;
+    /*text-indent: 8px;*/
+    vertical-align: middle;
+    word-spacing: normal;
+}
+
+
+.GridMiddle1 {
+    background-color: #f0f0f0;
+    border-right: 1px dotted #bcbcbc;
+    color: #465562;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    height: 24px;
+    letter-spacing: normal;
+    text-align: left;
+    /*text-indent: 8px;*/
+    vertical-align: middle;
+    word-spacing: normal;
+}
+.GridMiddle1:hover {
+    background-color: #d7d7d7;
+    border-right: 1px dotted #bcbcbc;
+    color: #465562;
+    cursor: pointer;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    height: 24px;
+    letter-spacing: normal;
+    text-align: left;
+    /*text-indent: 8px;*/
+    vertical-align: middle;
+    word-spacing: normal;
+}
+.GridMiddle2 {
+    background-color: #f9f9f9;
+    border-right: 1px dotted #bcbcbc;
+    color: #465562;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    height: 24px;
+    letter-spacing: normal;
+    text-align: left;
+    /*text-indent: 8px;*/
+    vertical-align: middle;
+    word-spacing: normal;
+}
+.GridMiddles {
+    color: #465562;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    height: 24px;
+    letter-spacing: normal;
+    text-align: left;
+    /*text-indent: 8px;*/
+    vertical-align: middle;
+    word-spacing: normal;
+}
+.GridMiddle2:hover {
+    background-color: #d7d7d7;
+    border-right: 1px dotted #bcbcbc;
+    color: #465562;
+    cursor: pointer;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    height: 24px;
+    letter-spacing: normal;
+    text-align: left;
+    /*text-indent: 8px;*/
+    vertical-align: middle;
+    word-spacing: normal;
+}
+
+.SBleft {
+    color: #333333;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    height: 24px;
+    letter-spacing: normal;
+    text-align: left;
+    text-indent: 8px;
+    vertical-align: middle;
+    word-spacing: normal;
+}
+.SBright {
+    color: #333333;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    height: 24px;
+    letter-spacing: normal;
+    text-align: right;
+    text-indent: 8px;
+    vertical-align: middle;
+    word-spacing: normal;
+}

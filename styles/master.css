@@ -1,0 +1,724 @@
+﻿
+.geterror2
+{
+	 
+	   border: 0 solid #c00000;
+    clear: both;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+		color:white;
+}
+
+.geterror {
+    border: 0 solid #c00000;
+    clear: both;
+    color: #f08b4e;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body   
+{
+    background: #fff;
+    font-family: "Helvetica Neue", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #696969;
+    height: 596px;
+}
+.page
+{
+	background-color: #e9faff;
+	/*background: url("../DesignNew/bg.png") repeat scroll 0 0 #e5dbcf;*/
+    width: 100%;
+    /*background-image:url(../DesignNew/Main-Image.png);*/
+    min-height:640px;
+}
+
+.content-main
+{
+    width: 1000px;
+    background-repeat:repeat;
+    margin: 20px auto 0px auto;
+    margin:auto;
+}
+.header
+{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 150px;
+    background-image:url(../DesignNew/Header.png);
+    background-repeat:repeat-x;
+    top: -2px;
+    left: 0px;
+}
+
+.heading
+{
+    background-image:url(../DesignNew/main-Text.png);
+    background-repeat: no-repeat;
+    height:75px;
+    width: 437px;
+    margin:auto;
+}
+.main
+{
+    margin: 0px 8px 8px 8px;
+    min-height: 420px;
+}
+
+
+#po-first-app
+{
+    height:170px;
+    width:185px;
+   	background-image:url(../DesignNew/White/AddFirstApplication.png);
+    background-repeat:no-repeat;
+    margin:auto;
+    position:relative;
+    text-align:center;
+}
+
+    #po-first-app:hover
+    {
+       background-image:url(../DesignNew/blue/AddFirstApplication.png);
+       color:white;       
+    }
+
+     #po-first-app:hover .font-main
+    {       
+       color:white;       
+    }
+
+
+
+     #po-view-all-apps
+
+{
+    height:170px;
+    width:185px;
+   	background-image:url(../DesignNew/White/ViewAllFirstApplications.png);
+    background-repeat:no-repeat;
+    margin:auto;
+    position:relative;
+    text-align:center;
+}
+
+    #po-view-all-apps:hover
+    {
+       background-image:url(../DesignNew/blue/ViewAllFirstApplications.png);
+       color:white;       
+    }
+
+     #po-view-all-apps:hover .font-main
+    {       
+       color:white;       
+    }
+
+
+
+    #po-tec-eval-apps
+    {
+        height:170px;
+        width:185px;
+        background-image:url(../DesignNew/White/FirstEvaluationTEC.png);
+        background-repeat:no-repeat;
+        margin:auto;
+        position:relative;
+        text-align:center;
+    }
+
+    #po-tec-eval-apps:hover
+    {
+        background-image:url(../DesignNew/blue/FirstEvaluationTEC.png);        
+    }
+
+    #po-tec-eval-apps:hover .font-main
+    {       
+        color:white;       
+    }
+
+
+    #po-srsp-eval-apps
+    {
+        height:170px;
+        width:185px;
+        background-image:url(../DesignNew/White/SocialMobilization.png);
+        background-repeat:no-repeat;
+        margin:auto;
+        position:relative;
+        text-align:center;
+    }
+
+    #po-srsp-eval-apps:hover
+    {
+        background-image:url(../DesignNew/blue/SocialMobilization.png);        
+    }
+
+    #po-srsp-eval-apps:hover .font-main
+    {       
+        color:white;       
+    }
+
+    #po-add-details
+    {
+        height:170px;
+        width:185px;
+        background-image:url(../DesignNew/White/AddFullProjectProposal.png);
+        background-repeat:no-repeat;
+        margin:auto;
+        position:relative;
+        text-align:center;
+    }
+
+    #po-add-details:hover
+    {
+        background-image:url(../DesignNew/blue/AddFullProjectProposal.png);        
+    }
+
+    #po-add-details:hover .font-main
+    {       
+        color:white;       
+    }
+
+    #po-eval-line-deptt
+    {
+        height:170px;
+        width:185px;
+        background-image:url(../DesignNew/White/Evaluationlinedevelopment.png);
+        background-repeat:no-repeat;
+        margin:auto;
+        position:relative;
+        text-align:center;
+    }
+
+    #po-eval-line-deptt:hover
+    {
+        background-image:url(../DesignNew/blue/Evaluationlinedevelopment.png);        
+    }
+
+    #po-eval-line-deptt:hover .font-main
+    {       
+        color:white;       
+    }
+
+
+    #po-secnd-tec-eval
+    {
+        height:170px;
+        width:185px;
+        background-image:url(../DesignNew/White/FirstEvaluationTEC.png);
+        background-repeat:no-repeat;
+        margin:auto;
+        position:relative;
+        text-align:center;
+    }
+
+    #po-secnd-tec-eval:hover
+    {
+        background-image:url(../DesignNew/blue/FirstEvaluationTEC.png);        
+    }
+
+    #po-secnd-tec-eval:hover .font-main
+    {       
+        color:white;       
+    }
+
+
+    #po-cbo-fund-form
+    {
+        height:170px;
+        width:185px;
+        background-image:url(../DesignNew/White/CBOsfundrequestion.png);
+        background-repeat:no-repeat;
+        margin:auto;
+        position:relative;
+        text-align:center;
+    }
+
+    #po-cbo-fund-form:hover
+    {
+        background-image:url(../DesignNew/blue/CBOsfundrequestion.png);        
+    }
+
+    #po-cbo-fund-form:hover .font-main
+    {       
+        color:white;       
+    }
+
+    #po-funds-form-fd
+    {
+        height:170px;
+        width:185px;
+        background-image:url(../DesignNew/White/FundsRequisitionFD.png);
+        background-repeat:no-repeat;
+        margin:auto;
+        position:relative;
+        text-align:center;
+    }
+
+    #po-funds-form-fd:hover
+    {
+        background-image:url(../DesignNew/blue/FundsRequisitionFD.png);        
+    }
+
+    #po-funds-form-fd:hover .font-main
+    {       
+        color:white;       
+    }
+
+    #po-work-plan
+    {
+        height:170px;
+        width:185px;
+        background-image:url(../DesignNew/White/workPlan.png);
+        background-repeat:no-repeat;
+        margin:auto;
+        position:relative;
+        text-align:center;
+    }
+
+    #po-work-plan:hover
+    {
+        background-image:url(../DesignNew/blue/workPlan.png);        
+    }
+
+    #po-work-plan:hover .font-main
+    {       
+        color:white;       
+    }
+
+    #po-close-qtr
+    {
+        height:170px;
+        width:185px;
+        background-image:url(../DesignNew/White/CloseQuarter.png);
+        background-repeat:no-repeat;
+        margin:auto;
+        position:relative;
+        text-align:center;
+    }
+
+   #po-close-qtr:hover
+    {
+        background-image:url(../DesignNew/blue/CloseQuarter.png);        
+    }
+
+    #po-close-qtr:hover .font-main
+    {       
+        color:white;       
+    }
+
+    #po-reports
+    {
+        height:170px;
+        width:185px;
+        background-image:url(../DesignNew/White/Reports.png);
+        background-repeat:no-repeat;
+        margin:auto;
+        position:relative;
+        text-align:center;
+    }
+
+    #po-reports:hover
+    {
+        background-image:url(../DesignNew/blue/Reports.png);        
+    }
+
+     #po-reports:hover .font-main
+    {       
+        color:white;       
+    }
+
+
+      #po-search
+    {
+        height:170px;
+        width:185px;
+        background-image:url(../DesignNew/White/PO_Search.png);
+        background-repeat:no-repeat;
+        margin:auto;
+        position:relative;
+        text-align:center;
+    }
+
+    #po-search:hover
+    {
+        background-image:url(../DesignNew/blue/PO_Serach.png);        
+    }
+
+     #po-search:hover .font-main
+    {       
+        color:white;       
+    }
+
+    #tec-first-app
+    {
+        height:170px;
+        width:185px;
+        background-image:url(../DesignNew/White/FirstEvaluationTEC.png);
+        background-repeat:no-repeat;
+        margin:auto;
+        position:relative;
+        text-align:center;
+    }
+
+    #tec-first-app:hover
+    {
+        background-image:url(../DesignNew/blue/FirstEvaluationTEC.png);        
+    }
+
+     #tec-first-app:hover .font-main
+    {       
+        color:white;       
+    }
+
+      #tec-full-proposal
+    {
+        height:170px;
+        width:185px;
+        background-image:url(../DesignNew/White/workPlan.png);
+        background-repeat:no-repeat;
+        margin:auto;
+        position:relative;
+        text-align:center;
+    }
+
+     #tec-full-proposal:hover
+    {
+        background-image:url(../DesignNew/blue/workPlan.png);        
+    }
+
+     #tec-full-proposal:hover .font-main
+    {       
+        color:white;       
+    }
+
+     #srsp-first-app
+     {
+        height:170px;
+        width:185px;
+        background-image:url(../DesignNew/White/FirstEvaluationTEC.png);
+        background-repeat:no-repeat;
+        margin:auto;
+        position:relative;
+        text-align:center;
+    }
+
+     #srsp-first-app:hover
+    {
+        background-image:url(../DesignNew/blue/FirstEvaluationTEC.png);        
+    }
+
+     #srsp-first-app:hover .font-main
+    {       
+        color:white;       
+    }
+
+     #line-recieved
+     {
+        height:170px;
+        width:185px;
+        background-image:url(../DesignNew/White/FirstEvaluationTEC.png);
+        background-repeat:no-repeat;
+        margin:auto;
+        position:relative;
+        text-align:center;
+    }
+
+     #line-recieved:hover
+    {
+        background-image:url(../DesignNew/blue/FirstEvaluationTEC.png);        
+    }
+
+     #line-recieved:hover .font-main
+    {       
+        color:white;       
+    }
+
+     #ddc-prj
+     {
+        height:170px;
+        width:185px;
+        background-image:url(../DesignNew/White/workPlan.png);
+        background-repeat:no-repeat;
+        margin:auto;
+        position:relative;
+        text-align:center;
+    }
+
+    #ddc-prj:hover
+    {
+        background-image:url(../DesignNew/blue/workPlan.png);        
+    }
+
+    #ddc-prj:hover .font-main
+    {       
+        color:white;       
+    }
+
+    #fd-funds-allocate
+    {
+        height:170px;
+        width:185px;
+        background-image:url(../DesignNew/White/FundsRequisitionFD.png);
+        background-repeat:no-repeat;
+        margin:auto;
+        position:relative;
+        text-align:center;
+    }
+
+    #fd-funds-allocate:hover
+    {
+        background-image:url(../DesignNew/blue/FundsRequisitionFD.png);        
+    }
+
+    #fd-funds-allocate:hover .font-main
+    {       
+        color:white;       
+    }
+
+
+
+     #fd-funds-allocate_update
+    {
+        height:170px;
+        width:185px;
+        background-image:url(../DesignNew/White/FundsRequisitionFD.png);
+        background-repeat:no-repeat;
+        margin:auto;
+        position:relative;
+        text-align:center;
+    }
+
+    #fd-funds-allocate_update:hover
+    {
+        background-image:url(../DesignNew/blue/FundsRequisitionFD.png);        
+    }
+
+    #fd-funds-allocate_update:hover .font-main
+    {       
+        color:white;       
+    }
+
+    #fd-prj-po
+    {
+        height:170px;
+        width:185px;
+        background-image:url(../DesignNew/White/FirstEvaluationTEC.png);
+        background-repeat:no-repeat;
+        margin:auto;
+        position:relative;
+        text-align:center;
+    }
+
+    #fd-prj-po:hover
+    {
+        background-image:url(../DesignNew/blue/FirstEvaluationTEC.png);        
+    }
+
+    #fd-prj-po:hover .font-main
+    {       
+        color:white;       
+    }
+
+    #dao-funds-requi
+    {
+        height:170px;
+        width:185px;
+        background-image:url(../DesignNew/White/CBOsfundrequestion.png);
+        background-repeat:no-repeat;
+        margin:auto;
+        position:relative;
+        text-align:center;
+    }
+
+    #dao-funds-requi:hover
+    {
+        background-image:url(../DesignNew/blue/CBOsfundrequestion.png);        
+    }
+
+    #dao-funds-requi:hover .font-main
+    {       
+        color:white;       
+    }
+
+    #fd-frm-ddc
+    {
+        height:170px;
+        width:185px;
+        background-image:url(../DesignNew/White/ReceivedSRSP.png);
+        background-repeat:no-repeat;
+        margin:auto;
+        position:relative;
+        text-align:center;
+    }
+
+    #fd-frm-ddc:hover
+    {
+        background-image:url(../DesignNew/blue/ReceivedSRSP.png);        
+    }
+
+    #fd-frm-ddc:hover .font-main
+    {       
+        color:white;       
+    }
+
+    #secy-track-app
+      {
+        height:170px;
+        width:185px;
+        background-image:url(../DesignNew/White/secytrackapp.png);
+        background-repeat:no-repeat;
+        margin:auto;
+        position:relative;
+        text-align:center;
+    }
+
+    #secy-track-app:hover
+    {
+        background-image:url(../DesignNew/blue/secytrackapp.png);        
+    }
+
+    #secy-track-app:hover .font-main
+    {       
+        color:white;       
+    }
+
+    #secy-fund-flow
+      {
+        height:170px;
+        width:185px;
+        background-image:url(../DesignNew/White/secyFunds.png);
+        background-repeat:no-repeat;
+        margin:auto;
+        position:relative;
+        text-align:center;
+    }
+
+    #secy-fund-flow:hover
+    {
+        background-image:url(../DesignNew/blue/secyFunds.png);        
+    }
+
+    #secy-fund-flow:hover .font-main
+    {       
+        color:white;       
+    }
+
+    #secy-reports
+      {
+        height:170px;
+        width:185px;
+        background-image:url(../DesignNew/White/secyReports.png);
+        background-repeat:no-repeat;
+        margin:auto;
+        position:relative;
+        text-align:center;
+    }
+
+    #secy-reports:hover
+    {
+        background-image:url(../DesignNew/blue/secyReports.png);        
+    }
+
+    #secy-reports:hover .font-main
+    {       
+        color:white;       
+    }
+
+    #secy-dashboard
+      {
+        height:170px;
+        width:185px;
+        background-image:url(../DesignNew/White/SecyDashboard.png);
+        background-repeat:no-repeat;
+        margin:auto;
+        position:relative;
+        text-align:center;
+    }
+
+    #secy-dashboard:hover
+    {
+        background-image:url(../DesignNew/blue/SecyDashboard.png);        
+    }
+
+
+    #secy-dashboard:hover .font-main
+    {       
+        color:white;       
+    }
+
+    #secy-dashboard-gis
+      {
+        height:170px;
+        width:185px;
+        background-image:url(../DesignNew/White/Gis.png);
+        background-repeat:no-repeat;
+        margin:auto;
+        position:relative;
+        text-align:center;
+    }
+
+    #secy-dashboard-gis:hover
+    {
+        background-image:url(../DesignNew/blue/Gis.png);        
+    }
+
+
+    #secy-dashboard-gis:hover .font-main
+    {       
+        color:white;       
+    }
+
+
+.font-main {
+    color:#0077A3;
+    font-family:'Segoe UI';
+    font-size:14px;
+}
+
+.font-header {
+    color:#007CAA;
+    font-family:'Segoe UI';
+    font-size:18px;
+}
+
+
+ 
+.bolds
+{
+	font-weight:bold;
+}
+
+ .Rightlogout
+{
+float: right; 
+color: white; 
+margin-right: 10px; cursor: pointer;
+ margin-top: 9px;
+}
+
+
+.SetRight
+{
+	text-align:right;
+}
+.SetLeft
+{
+	text-align:left;
+}
+.SetCenter
+{
+	text-align:center;
+}

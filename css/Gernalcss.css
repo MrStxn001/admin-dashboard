@@ -1,0 +1,248 @@
+﻿
+
+
+.col-sm-6_ExtL {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.col-sm-6_ExtR {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+}
+
+.MyCalendar .ajax__calendar_container {
+    border: 1px solid #646464;
+    background-color: lemonchiffon;
+    color: red;
+    z-index: 99999 !important;
+}
+
+.MyCalendar .ajax__calendar_other .ajax__calendar_day,
+.MyCalendar .ajax__calendar_other .ajax__calendar_year {
+    color: black;
+}
+
+.MyCalendar .ajax__calendar_hover .ajax__calendar_day,
+.MyCalendar .ajax__calendar_hover .ajax__calendar_month,
+.MyCalendar .ajax__calendar_hover .ajax__calendar_year {
+    color: black;
+}
+
+.MyCalendar .ajax__calendar_active .ajax__calendar_day,
+.MyCalendar .ajax__calendar_active .ajax__calendar_month,
+.MyCalendar .ajax__calendar_active .ajax__calendar_year {
+    color: black;
+    font-weight: bold;
+}
+
+
+.lblMultiple {
+    vertical-align: inherit;
+    line-height: normal;
+    margin-top: 5px;
+}
+
+
+
+.fa.action:hover {
+    font-size: 18px !important;
+    transition-timing-function: linear;
+}
+
+
+.myButton {
+    -moz-box-shadow: inset 0px 1px 0px 0px #d9fbbe;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #d9fbbe;
+    box-shadow: inset 0px 1px 0px 0px #8f8f8f;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #898b87 ), color-stop(1, #272727));
+    background: -moz-linear-gradient(top, #898b87 5%, #272727 100%);
+    background: -webkit-linear-gradient(top, #898b87 5%, #272727 100%);
+    background: -o-linear-gradient(top, #898b87 5%, #272727 100%);
+    background: -ms-linear-gradient(top, #898b87 5%, #272727 100%);
+    background: linear-gradient(to bottom, #898b87 5%, #272727 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#898b87 ', endColorstr='#272727',GradientType=0);
+    background-color: #898b87;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: 0px solid #83c41a;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #86ae47;
+}
+
+    .myButton:hover {
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #272727), color-stop(1, #898b87));
+        background: -moz-linear-gradient(top, #272727 5%, #898b87 100%);
+        background: -webkit-linear-gradient(top, #272727 5%, #898b87 100%);
+        background: -o-linear-gradient(top, #272727 5%, #898b87 100%);
+        background: -ms-linear-gradient(top, #272727 5%, #898b87 100%);
+        background: linear-gradient(to bottom, #272727 5%, #898b87 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#272727', endColorstr='#898b87',GradientType=0);
+        background-color: #272727;
+    }
+
+   /* .myButton:active {
+        position: relative;
+        top: 1px;
+    }*/
+
+a.myButton:hover {
+    color: white;
+}
+
+.myButton2 {
+    -moz-box-shadow: inset 0px 1px 0px 0px #d9fbbe;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #d9fbbe;
+    box-shadow: inset 0px 1px 0px 0px #8f8f8f;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #898b87 ), color-stop(1, #272727));
+    background: -moz-linear-gradient(top, #898b87 5%, #272727 100%);
+    background: -webkit-linear-gradient(top, #898b87 5%, #272727 100%);
+    background: -o-linear-gradient(top, #898b87 5%, #272727 100%);
+    background: -ms-linear-gradient(top, #898b87 5%, #272727 100%);
+    background: linear-gradient(to bottom, #898b87 5%, #272727 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#898b87 ', endColorstr='#272727',GradientType=0);
+    background-color: #b8e356;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    border: 0px solid #83c41a;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 14px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #86ae47;
+}
+
+    .myButton2:hover {
+        -moz-box-shadow: inset 0px 1px 0px 0px #dcecfb;
+        -webkit-box-shadow: inset 0px 1px 0px 0px #dcecfb;
+        box-shadow: inset 0px 1px 0px 0px #dcecfb;
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #272727), color-stop(1, #898b87));
+        background: -moz-linear-gradient(top, #272727 5%, #898b87 100%);
+        background: -webkit-linear-gradient(top, #272727 5%, #898b87 100%);
+        background: -o-linear-gradient(top, #272727 5%, #898b87 100%);
+        background: -ms-linear-gradient(top, #272727 5%, #898b87 100%);
+        background: linear-gradient(to bottom, #272727 5%, #898b87 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#272727', endColorstr='#898b87',GradientType=0);
+        background-color: #272727;
+        -moz-border-radius: 7px;
+        -webkit-border-radius: 7px;
+        border-radius: 7px;
+        border: 0px solid #80b5ea;
+        display: inline-block;
+        cursor: pointer;
+        color: #ffffff;
+        font-family: arial;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 5px 14px;
+        text-decoration: none;
+        text-shadow: 0px 1px 0px #86ae47;
+    }
+
+    .myButton2:active {
+        position: relative;
+        top: 1px;
+    }
+
+.CancelButton {
+    -moz-box-shadow: inset 0px 0px 0px 0px #d9fbbe;
+    -webkit-box-shadow: inset 0px 0px 0px 0px #d9fbbe;
+    box-shadow: inset 0px 0px 0px 0px #d9fbbe;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #eee), color-stop(1, #d2d6de));
+    background: -moz-linear-gradient(top, #eee 5%, #d2d6de 100%);
+    background: -webkit-linear-gradient(top, #eee 5%, #d2d6de 100%);
+    background: -o-linear-gradient(top, #eee 5%, #d2d6de 100%);
+    background: -ms-linear-gradient(top, #eee 5%, #d2d6de 100%);
+    background: linear-gradient(to bottom, #eee 5%, #d2d6de 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eee', endColorstr='#d2d6de',GradientType=0);
+    background-color: #eee;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    border: 1px solid #707070;
+    display: inline-block;
+    cursor: pointer;
+    color: #585858;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 14px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #465562;
+}
+
+    .CancelButton:hover {
+        -moz-box-shadow: inset 0px 1px 0px 0px #dcecfb;
+        -webkit-box-shadow: inset 0px 1px 0px 0px #dcecfb;
+        box-shadow: inset 0px 1px 0px 0px #dcecfb;
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bddbfa), color-stop(1, #80b5ea));
+        background: -moz-linear-gradient(top, #bddbfa 5%, #80b5ea 100%);
+        background: -webkit-linear-gradient(top, #bddbfa 5%, #80b5ea 100%);
+        background: -o-linear-gradient(top, #bddbfa 5%, #80b5ea 100%);
+        background: -ms-linear-gradient(top, #bddbfa 5%, #80b5ea 100%);
+        background: linear-gradient(to bottom, #bddbfa 5%, #80b5ea 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bddbfa', endColorstr='#80b5ea',GradientType=0);
+        background-color: #bddbfa;
+        -moz-border-radius: 7px;
+        -webkit-border-radius: 7px;
+        border-radius: 7px;
+        border: 1px solid #80b5ea;
+        display: inline-block;
+        cursor: pointer;
+        color: #ffffff;
+        font-family: arial;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 5px 14px;
+        text-decoration: none;
+        text-shadow: 0px 1px 0px #86ae47;
+    }
+
+    .CancelButton:active {
+        position: relative;
+        top: 1px;
+    }
+
+    .pagingTbl {
+        width: 100%;
+    }
+
+        .pagingTbl td {
+            font-size: 15px;
+            padding: 5px;
+        }
+
+    .pagingButtons td {
+        background-color: #f7f7f7;
+        border: 1px solid #ddd;
+    }
+
+    .pagingButtons tr td:hover {
+        background: #c1c1c1;
+    }
+
+    .pagingButtons td a:hover {
+        color: white;
+    }
