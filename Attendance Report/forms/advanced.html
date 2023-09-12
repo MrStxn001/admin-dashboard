@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>AdminLTE 2 | Advanced form elements</title>
+  <title>AdminLTE 2 | Simple Tables</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.5 -->
@@ -12,16 +13,6 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-  <!-- daterange picker -->
-  <link rel="stylesheet" href="../../plugins/daterangepicker/daterangepicker-bs3.css">
-  <!-- iCheck for checkboxes and radio inputs -->
-  <link rel="stylesheet" href="../../plugins/iCheck/all.css">
-  <!-- Bootstrap Color Picker -->
-  <link rel="stylesheet" href="../../plugins/colorpicker/bootstrap-colorpicker.min.css">
-  <!-- Bootstrap time Picker -->
-  <link rel="stylesheet" href="../../plugins/timepicker/bootstrap-timepicker.min.css">
-  <!-- Select2 -->
-  <link rel="stylesheet" href="../../plugins/select2/select2.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="../../dist/css/AdminLTE.min.css">
   <!-- AdminLTE Skins. Choose a skin from the css/skins
@@ -35,242 +26,123 @@
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
 </head>
-<body class="hold-transition skin-blue sidebar-mini">
-<div class="wrapper">
 
-  <header class="main-header">
-    <!-- Logo -->
-    <a href="../../index2.html" class="logo">
-      <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>A</b>LT</span>
-      <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>Admin</b>LTE</span>
-    </a>
-    <!-- Header Navbar: style can be found in header.less -->
-    <nav class="navbar navbar-static-top" role="navigation">
-      <!-- Sidebar toggle button-->
-      <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
+<body style="margin: 0; padding: 0; display: flex; flex-direction: column; height: 100%;"
+  class="hold-transition skin-blue sidebar-mini">
+  <div class="wrapper" style="flex: 1;">
+    <header class="main-header">
+      <a href="../../index2.html" class="logo">
+        <!-- LOGO -->
+        AdminLTE
       </a>
-
-      <div class="navbar-custom-menu">
-        <ul class="nav navbar-nav">
-          <!-- Messages: style can be found in dropdown.less-->
-          <li class="dropdown messages-menu">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <i class="fa fa-envelope-o"></i>
-              <span class="label label-success">4</span>
-            </a>
-            <ul class="dropdown-menu">
-              <li class="header">You have 4 messages</li>
-              <li>
-                <!-- inner menu: contains the actual data -->
-                <ul class="menu">
-                  <li><!-- start message -->
-                    <a href="#">
-                      <div class="pull-left">
-                        <img src="../../dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
-                      </div>
-                      <h4>
-                        Support Team
-                        <small><i class="fa fa-clock-o"></i> 5 mins</small>
-                      </h4>
-                      <p>Why not buy a new awesome theme?</p>
-                    </a>
-                  </li>
-                  <!-- end message -->
-                  <li>
-                    <a href="#">
-                      <div class="pull-left">
-                        <img src="../../dist/img/user3-128x128.jpg" class="img-circle" alt="User Image">
-                      </div>
-                      <h4>
-                        AdminLTE Design Team
-                        <small><i class="fa fa-clock-o"></i> 2 hours</small>
-                      </h4>
-                      <p>Why not buy a new awesome theme?</p>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <div class="pull-left">
-                        <img src="../../dist/img/user4-128x128.jpg" class="img-circle" alt="User Image">
-                      </div>
-                      <h4>
-                        Developers
-                        <small><i class="fa fa-clock-o"></i> Today</small>
-                      </h4>
-                      <p>Why not buy a new awesome theme?</p>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <div class="pull-left">
-                        <img src="../../dist/img/user3-128x128.jpg" class="img-circle" alt="User Image">
-                      </div>
-                      <h4>
-                        Sales Department
-                        <small><i class="fa fa-clock-o"></i> Yesterday</small>
-                      </h4>
-                      <p>Why not buy a new awesome theme?</p>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <div class="pull-left">
-                        <img src="../../dist/img/user4-128x128.jpg" class="img-circle" alt="User Image">
-                      </div>
-                      <h4>
-                        Reviewers
-                        <small><i class="fa fa-clock-o"></i> 2 days</small>
-                      </h4>
-                      <p>Why not buy a new awesome theme?</p>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="footer"><a href="#">See All Messages</a></li>
-            </ul>
-          </li>
-          <!-- Notifications: style can be found in dropdown.less -->
-          <li class="dropdown notifications-menu">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <i class="fa fa-bell-o"></i>
-              <span class="label label-warning">10</span>
-            </a>
-            <ul class="dropdown-menu">
-              <li class="header">You have 10 notifications</li>
-              <li>
-                <!-- inner menu: contains the actual data -->
-                <ul class="menu">
-                  <li>
-                    <a href="#">
-                      <i class="fa fa-users text-aqua"></i> 5 new members joined today
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="fa fa-warning text-yellow"></i> Very long description here that may not fit into the
-                      page and may cause design problems
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="fa fa-users text-red"></i> 5 new members joined
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="#">
-                      <i class="fa fa-shopping-cart text-green"></i> 25 sales made
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="fa fa-user text-red"></i> You changed your username
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="footer"><a href="#">View all</a></li>
-            </ul>
-          </li>
-          <!-- Tasks: style can be found in dropdown.less -->
-          <li class="dropdown tasks-menu">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <i class="fa fa-flag-o"></i>
-              <span class="label label-danger">9</span>
-            </a>
-            <ul class="dropdown-menu">
-              <li class="header">You have 9 tasks</li>
-              <li>
-                <!-- inner menu: contains the actual data -->
-                <ul class="menu">
-                  <li><!-- Task item -->
-                    <a href="#">
-                      <h3>
-                        Design some buttons
-                        <small class="pull-right">20%</small>
-                      </h3>
-                      <div class="progress xs">
-                        <div class="progress-bar progress-bar-aqua" style="width: 20%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                          <span class="sr-only">20% Complete</span>
+      <!-- Header Navbar: style can be found in header.less -->
+      <nav class="navbar navbar-static-top" role="navigation">
+        <!-- Navbar Right Menu -->
+        <div class="navbar-custom-menu">
+          <ul class="nav navbar-nav">
+            <!-- Messages: style can be found in dropdown.less-->
+            <li class="dropdown messages-menu">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <i class="fa fa-envelope-o"></i>
+                <span class="label label-success">4</span>
+              </a>
+              <ul class="dropdown-menu">
+                <li class="header">You have 4 messages</li>
+                <li>
+                  <!-- inner menu: contains the actual data -->
+                  <ul class="menu">
+                    <li>
+                      <!-- start message -->
+                      <a href="#">
+                        <div class="pull-left">
+                          <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
                         </div>
-                      </div>
-                    </a>
-                  </li>
-                  <!-- end task item -->
-                  <li><!-- Task item -->
-                    <a href="#">
-                      <h3>
-                        Create a nice theme
-                        <small class="pull-right">40%</small>
-                      </h3>
-                      <div class="progress xs">
-                        <div class="progress-bar progress-bar-green" style="width: 40%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                          <span class="sr-only">40% Complete</span>
+                        <h4>
+                          Sender Name
+                          <small><i class="fa fa-clock-o"></i> 5 mins</small>
+                        </h4>
+                        <p>Message Excerpt</p>
+                      </a>
+                    </li><!-- end message -->
+                    ...
+                  </ul>
+                </li>
+                <li class="footer"><a href="#">See All Messages</a></li>
+              </ul>
+            </li>
+            <!-- Notifications: style can be found in dropdown.less -->
+            <li class="dropdown notifications-menu">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <i class="fa fa-bell-o"></i>
+                <span class="label label-warning">10</span>
+              </a>
+              <ul class="dropdown-menu">
+                <li class="header">You have 10 notifications</li>
+                <li>
+                  <!-- inner menu: contains the actual data -->
+                  <ul class="menu">
+                    <li>
+                      <a href="#">
+                        <i class="ion ion-ios-people info"></i> Notification title
+                      </a>
+                    </li>
+                    ...
+                  </ul>
+                </li>
+                <li class="footer"><a href="#">View all</a></li>
+              </ul>
+            </li>
+            <!-- Tasks: style can be found in dropdown.less -->
+            <li class="dropdown tasks-menu">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <i class="fa fa-flag-o"></i>
+                <span class="label label-danger">9</span>
+              </a>
+              <ul class="dropdown-menu">
+                <li class="header">You have 9 tasks</li>
+                <li>
+                  <!-- inner menu: contains the actual data -->
+                  <ul class="menu">
+                    <li>
+                      <!-- Task item -->
+                      <a href="#">
+                        <h3>
+                          Design some buttons
+                          <small class="pull-right">20%</small>
+                        </h3>
+                        <div class="progress xs">
+                          <div class="progress-bar progress-bar-aqua" style="width: 20%" role="progressbar"
+                            aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                            <span class="sr-only">20% Complete</span>
+                          </div>
                         </div>
-                      </div>
-                    </a>
-                  </li>
-                  <!-- end task item -->
-                  <li><!-- Task item -->
-                    <a href="#">
-                      <h3>
-                        Some task I need to do
-                        <small class="pull-right">60%</small>
-                      </h3>
-                      <div class="progress xs">
-                        <div class="progress-bar progress-bar-red" style="width: 60%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                          <span class="sr-only">60% Complete</span>
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                  <!-- end task item -->
-                  <li><!-- Task item -->
-                    <a href="#">
-                      <h3>
-                        Make beautiful transitions
-                        <small class="pull-right">80%</small>
-                      </h3>
-                      <div class="progress xs">
-                        <div class="progress-bar progress-bar-yellow" style="width: 80%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                          <span class="sr-only">80% Complete</span>
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                  <!-- end task item -->
-                </ul>
-              </li>
-              <li class="footer">
-                <a href="#">View all tasks</a>
-              </li>
-            </ul>
-          </li>
-          <!-- User Account: style can be found in dropdown.less -->
-          <li class="dropdown user user-menu">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <img src="../../dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
-              <span class="hidden-xs">Alexander Pierce</span>
-            </a>
-            <ul class="dropdown-menu">
-              <!-- User image -->
-              <li class="user-header">
-                <img src="../../dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
-
-                <p>
-                  Alexander Pierce - Web Developer
-                  <small>Member since Nov. 2012</small>
-                </p>
-              </li>
-              <!-- Menu Body -->
-              <li class="user-body">
-                <div class="row">
+                      </a>
+                    </li><!-- end task item -->
+                    ...
+                  </ul>
+                </li>
+                <li class="footer">
+                  <a href="#">View all tasks</a>
+                </li>
+              </ul>
+            </li>
+            <!-- User Account: style can be found in dropdown.less -->
+            <li class="dropdown user user-menu">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <img src="dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
+                <span class="hidden-xs">Alexander Pierce</span>
+              </a>
+              <ul class="dropdown-menu">
+                <!-- User image -->
+                <li class="user-header">
+                  <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                  <p>
+                    Alexander Pierce - Web Developer
+                    <small>Member since Nov. 2012</small>
+                  </p>
+                </li>
+                <!-- Menu Body -->
+                <li class="user-body">
                   <div class="col-xs-4 text-center">
                     <a href="#">Followers</a>
                   </div>
@@ -280,892 +152,713 @@
                   <div class="col-xs-4 text-center">
                     <a href="#">Friends</a>
                   </div>
-                </div>
-                <!-- /.row -->
-              </li>
-              <!-- Menu Footer-->
-              <li class="user-footer">
-                <div class="pull-left">
-                  <a href="#" class="btn btn-default btn-flat">Profile</a>
-                </div>
-                <div class="pull-right">
-                  <a href="#" class="btn btn-default btn-flat">Sign out</a>
-                </div>
-              </li>
-            </ul>
-          </li>
-          <!-- Control Sidebar Toggle Button -->
-          <li>
-            <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-  <!-- Left side column. contains the logo and sidebar -->
-  <aside class="main-sidebar">
-    <!-- sidebar: style can be found in sidebar.less -->
-    <section class="sidebar">
-      <!-- Sidebar user panel -->
-      <div class="user-panel">
-        <div class="pull-left image">
-          <img src="../../dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
-        </div>
-        <div class="pull-left info">
-          <p>Alexander Pierce</p>
-          <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
-        </div>
-      </div>
-      <!-- search form -->
-      <form action="#" method="get" class="sidebar-form">
-        <div class="input-group">
-          <input type="text" name="q" class="form-control" placeholder="Search...">
-              <span class="input-group-btn">
-                <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
-                </button>
-              </span>
-        </div>
-      </form>
-      <!-- /.search form -->
-      <!-- sidebar menu: : style can be found in sidebar.less -->
-      <ul class="sidebar-menu">
-        <li class="header">MAIN NAVIGATION</li>
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-dashboard"></i> <span>Dashboard</span> <i class="fa fa-angle-left pull-right"></i>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="../../index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
-            <li><a href="../../index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
-          </ul>
-        </li>
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-files-o"></i>
-            <span>Layout Options</span>
-            <span class="label label-primary pull-right">4</span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="../layout/top-nav.html"><i class="fa fa-circle-o"></i> Top Navigation</a></li>
-            <li><a href="../layout/boxed.html"><i class="fa fa-circle-o"></i> Boxed</a></li>
-            <li><a href="../layout/fixed.html"><i class="fa fa-circle-o"></i> Fixed</a></li>
-            <li><a href="../layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Collapsed Sidebar</a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="../widgets.html">
-            <i class="fa fa-th"></i> <span>Widgets</span>
-            <small class="label pull-right bg-green">new</small>
-          </a>
-        </li>
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-pie-chart"></i>
-            <span>Charts</span>
-            <i class="fa fa-angle-left pull-right"></i>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="../charts/chartjs.html"><i class="fa fa-circle-o"></i> ChartJS</a></li>
-            <li><a href="../charts/morris.html"><i class="fa fa-circle-o"></i> Morris</a></li>
-            <li><a href="../charts/flot.html"><i class="fa fa-circle-o"></i> Flot</a></li>
-            <li><a href="../charts/inline.html"><i class="fa fa-circle-o"></i> Inline charts</a></li>
-          </ul>
-        </li>
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-laptop"></i>
-            <span>UI Elements</span>
-            <i class="fa fa-angle-left pull-right"></i>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="../UI/general.html"><i class="fa fa-circle-o"></i> General</a></li>
-            <li><a href="../UI/icons.html"><i class="fa fa-circle-o"></i> Icons</a></li>
-            <li><a href="../UI/buttons.html"><i class="fa fa-circle-o"></i> Buttons</a></li>
-            <li><a href="../UI/sliders.html"><i class="fa fa-circle-o"></i> Sliders</a></li>
-            <li><a href="../UI/timeline.html"><i class="fa fa-circle-o"></i> Timeline</a></li>
-            <li><a href="../UI/modals.html"><i class="fa fa-circle-o"></i> Modals</a></li>
-          </ul>
-        </li>
-        <li class="treeview active">
-          <a href="#">
-            <i class="fa fa-edit"></i> <span>Forms</span>
-            <i class="fa fa-angle-left pull-right"></i>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="general.html"><i class="fa fa-circle-o"></i> General Elements</a></li>
-            <li class="active"><a href="advanced.html"><i class="fa fa-circle-o"></i> Advanced Elements</a></li>
-            <li><a href="editors.html"><i class="fa fa-circle-o"></i> Editors</a></li>
-          </ul>
-        </li>
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-table"></i> <span>Tables</span>
-            <i class="fa fa-angle-left pull-right"></i>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="../tables/simple.html"><i class="fa fa-circle-o"></i> Simple tables</a></li>
-            <li><a href="../tables/data.html"><i class="fa fa-circle-o"></i> Data tables</a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="../calendar.html">
-            <i class="fa fa-calendar"></i> <span>Calendar</span>
-            <small class="label pull-right bg-red">3</small>
-          </a>
-        </li>
-        <li>
-          <a href="../mailbox/mailbox.html">
-            <i class="fa fa-envelope"></i> <span>Mailbox</span>
-            <small class="label pull-right bg-yellow">12</small>
-          </a>
-        </li>
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-folder"></i> <span>Examples</span>
-            <i class="fa fa-angle-left pull-right"></i>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="../examples/invoice.html"><i class="fa fa-circle-o"></i> Invoice</a></li>
-            <li><a href="../examples/profile.html"><i class="fa fa-circle-o"></i> Profile</a></li>
-            <li><a href="../examples/login.html"><i class="fa fa-circle-o"></i> Login</a></li>
-            <li><a href="../examples/register.html"><i class="fa fa-circle-o"></i> Register</a></li>
-            <li><a href="../examples/lockscreen.html"><i class="fa fa-circle-o"></i> Lockscreen</a></li>
-            <li><a href="../examples/404.html"><i class="fa fa-circle-o"></i> 404 Error</a></li>
-            <li><a href="../examples/500.html"><i class="fa fa-circle-o"></i> 500 Error</a></li>
-            <li><a href="../examples/blank.html"><i class="fa fa-circle-o"></i> Blank Page</a></li>
-            <li><a href="../examples/pace.html"><i class="fa fa-circle-o"></i> Pace Page</a></li>
-          </ul>
-        </li>
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-share"></i> <span>Multilevel</span>
-            <i class="fa fa-angle-left pull-right"></i>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="#"><i class="fa fa-circle-o"></i> Level One</a></li>
-            <li>
-              <a href="#"><i class="fa fa-circle-o"></i> Level One <i class="fa fa-angle-left pull-right"></i></a>
-              <ul class="treeview-menu">
-                <li><a href="#"><i class="fa fa-circle-o"></i> Level Two</a></li>
-                <li>
-                  <a href="#"><i class="fa fa-circle-o"></i> Level Two <i class="fa fa-angle-left pull-right"></i></a>
-                  <ul class="treeview-menu">
-                    <li><a href="#"><i class="fa fa-circle-o"></i> Level Three</a></li>
-                    <li><a href="#"><i class="fa fa-circle-o"></i> Level Three</a></li>
-                  </ul>
+                </li>
+                <!-- Menu Footer-->
+                <li class="user-footer">
+                  <div class="pull-left">
+                    <a href="#" class="btn btn-default btn-flat">Profile</a>
+                  </div>
+                  <div class="pull-right">
+                    <a href="#" class="btn btn-default btn-flat">Sign out</a>
+                  </div>
                 </li>
               </ul>
             </li>
-            <li><a href="#"><i class="fa fa-circle-o"></i> Level One</a></li>
           </ul>
-        </li>
-        <li><a href="../../documentation/index.html"><i class="fa fa-book"></i> <span>Documentation</span></a></li>
-        <li class="header">LABELS</li>
-        <li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>Important</span></a></li>
-        <li><a href="#"><i class="fa fa-circle-o text-yellow"></i> <span>Warning</span></a></li>
-        <li><a href="#"><i class="fa fa-circle-o text-aqua"></i> <span>Information</span></a></li>
-      </ul>
-    </section>
-    <!-- /.sidebar -->
+        </div>
+      </nav>
+    </header>
+
+
+
+
+    <aside class="main-sidebar">
+      <!-- sidebar: style can be found in sidebar.less -->
+      <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 674px;"><section class="sidebar" style="height: 674px; overflow: hidden; width: auto;">
+
+
+
+          <!-- /.search form -->
+          <!-- sidebar menu: : style can be found in sidebar.less -->
+          <ul class="sidebar-menu">
+              <li class="header" style="color: white">MAIN NAVIGATION</li>
+
+              <li class="treeview">
+                  <a href="Dashboard.aspx">
+                      <i class="fa fa-dashboard"></i><span>Dashboard</span> <i class="fa fa-angle-left pull-right"></i>
+                  </a>
+              </li>
+
+              
+              
+              <li class="treeview">
+                  <a href="#">
+                      <i class="fa fa-gbp"></i><span>Financial</span>
+                      <i class="fa fa-angle-left pull-right"></i>
+                  </a>
+                  <ul class="treeview-menu">
+                      <li><a href="DentistSessions.aspx"><i class="fa fa-circle-o"></i>Dentist Group Session</a></li>
+                      <li><a href="HygienistSessions.aspx"><i class="fa fa-circle-o"></i>Hygienist Group Session</a></li>
+                      <li><a href="UserSessions.aspx"><i class="fa fa-circle-o"></i>Staff Group Session</a></li>
+                      <li><a href="DeleteSessions.aspx"><i class="fa fa-circle-o"></i>Delete Group Session</a></li>
+                      <li><a href="Payments.aspx"><i class="fa fa-circle-o"></i>Dentist/Hygienist Payment</a></li>
+                      <li><a href="UserRate.aspx"><i class="fa fa-circle-o"></i>Users Rate</a></li>
+                  </ul>
+              </li>
+
+
+              <li class="treeview">
+                  <a href="#">
+                      <i class="fa fa-users"></i><span>HR</span>
+                      <i class="fa fa-angle-left pull-right"></i>
+                  </a>
+                  <ul class="treeview-menu">
+                      <li><a href="Viewdentals.aspx"><i class="fa fa-circle-o"></i>View Users</a></li>
+                      <li><a href="viewdocumentsdetails.aspx"><i class="fa fa-circle-o"></i>Users Documents</a></li>
+                      <li><a href="AddEditUserRoles.aspx"><i class="fa fa-circle-o"></i>Manage User Role </a></li>
+                      <li><a href="AddEditRoles.aspx"><i class="fa fa-circle-o"></i>Manage Role Templetes</a></li>
+                  </ul>
+              </li>
+
+              <li class="treeview">
+                  <a href="#">
+                      <i class="fa fa-pie-chart"></i><span>Compliances</span>
+                      <i class="fa fa-angle-left pull-right"></i>
+                  </a>
+                  <ul class="treeview-menu" style="display: none;">
+                      <li><a href="BranchCompliances.aspx"><i class="fa fa-circle-o"></i>Practice Compliance</a></li>
+                      <li><a href="ViewPracticesDocumentsDetails.aspx"><i class="fa fa-circle-o"></i>Practice Compliance Report</a></li>
+                      <li><a href="Compliances.aspx"><i class="fa fa-circle-o"></i>Policies and Procedures</a></li>
+                      <li><a href="TagsAllPoliciesDocuments.aspx"><i class="fa fa-circle-o"></i>CQC Documents Assign</a></li>
+                  </ul>
+              </li>
+              
+
+              <li class="treeview">
+                  <a href="#">
+                      <i class="fa fa-pie-chart"></i><span>Reports</span>
+                      <i class="fa fa-angle-left pull-right"></i>
+                  </a>
+                  <ul class="treeview-menu">
+
+                      
+
+                      <li><a href="EarningRpts.aspx"><i class="fa fa-circle-o text-aqua"></i>All Dentist Earnings</a></li>
+                      <li><a href="StaffEarningRpts.aspx"><i class="fa fa-circle-o text-aqua"></i>Staff Earning</a></li>
+                      <li><a href="StaffHolidayReport.aspx"><i class="fa fa-circle-o text-aqua"></i>Staff Holiday</a></li>
+                      <li><a href="IndPVTRpts.aspx"><i class="fa fa-circle-o text-aqua"></i>All Dentist Private</a></li>
+                      <li><a href="PVTRpts.aspx"><i class="fa fa-circle-o text-aqua"></i>Total for Private</a></li>
+                      
+                      <li><a href="PaymentRpts.aspx"><i class="fa fa-circle-o text-aqua"></i>Monthly Summary</a></li>
+
+                      
+                  </ul>
+              </li>
+
+
+              
+
+
+              
+
+              <li class="treeview">
+                  <a href="#">
+                      <i class="fa fa-cog"></i><span>Settings</span>
+                      <i class="fa fa-angle-left pull-right"></i>
+                  </a>
+                  <ul class="treeview-menu">
+
+
+                      
+                      <li><a href="CompanyProfile.aspx"><i class="fa fa-circle-o"></i>Company Profile</a></li>
+                      <li><a href="CompBranches.aspx"><i class="fa fa-circle-o"></i>Dental Practices </a></li>
+                      <li><a href="Labs.aspx"><i class="fa fa-circle-o"></i>Dental Labs</a></li>
+                      <li><a href="labassign.aspx"><i class="fa fa-circle-o"></i>Assign Dental Labs</a></li>
+                      <li><a href="UDA.aspx"><i class="fa fa-circle-o"></i>NHS Contract</a></li>
+                      <li><a href="Banks.aspx"><i class="fa fa-circle-o"></i>Manage Banks</a></li>
+                      <li><a href="PayAdj.aspx"><i class="fa fa-circle-o"></i>Payable Adjustments</a></li>
+                      <li><a href="Deductions.aspx"><i class="fa fa-circle-o"></i>Deductions</a></li>
+                      <li><a href="AddEditTrustedIPs.aspx"><i class="fa fa-circle-o"></i>Add Trusted IP</a></li>
+                      <li><a href="AddEditBankHolidays.aspx"><i class="fa fa-circle-o"></i>Add Bank Holidays</a></li>
+                      <li><a href="Subscription.aspx"><i class="fa fa-circle-o"></i>Subscription</a></li>
+
+                      
+                      
+
+                      
+                  </ul>
+              </li>
+
+              
+              
+              <li class="treeview">
+                  <a href="#">
+                      <i class="fa fa-clock-o"></i><span>Attendance</span>
+                      <i class="fa fa-angle-left pull-right"></i>
+                  </a>
+                  <ul class="treeview-menu">
+                      <li><a href="UserAttendance.aspx"><i class="fa fa-circle-o"></i>User Attendance</a></li>
+                  </ul>
+              </li>
+
+              
+              <li class="treeview">
+                  <a href="#">
+                      <i class="fa fa-support"></i><span>Support</span>
+                      <i class="fa fa-angle-left pull-right"></i>
+                  </a>
+                  <ul class="treeview-menu">
+                      
+                      <li><a href="ViewTickets.aspx"><i class="fa fa-circle-o"></i>View Tickets</a></li>
+                      
+                      <li><a href="SubmitTickets.aspx"><i class="fa fa-circle-o"></i>Submit a Ticket</a></li>
+                      <li><a href="Backup.aspx"><i class="fa fa-circle-o"></i>Backup</a></li>
+
+                      
+                  </ul>
+              </li>
+
+              
+              
+          </ul>
+      </section><div class="slimScrollBar" style="background-color: rgba(0, 0, 0, 0.2); width: 3px; position: absolute; top: 0px; opacity: 0.4; display: none; border-radius: 7px; z-index: 99; right: 1px; height: 674px;"></div><div class="slimScrollRail" style="width: 3px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; background-color: rgb(51, 51, 51); opacity: 0.2; z-index: 90; right: 1px;"></div></div>
+      <!-- /.sidebar -->
   </aside>
 
-  <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper">
-    <!-- Content Header (Page header) -->
-    <section class="content-header">
-      <h1>
-        Advanced Form Elements
-        <small>Preview</small>
-      </h1>
-      <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li><a href="#">Forms</a></li>
-        <li class="active">Advanced Elements</li>
-      </ol>
-    </section>
 
-    <!-- Main content -->
-    <section class="content">
 
-      <!-- SELECT2 EXAMPLE -->
-      <div class="box box-default">
-        <div class="box-header with-border">
-          <h3 class="box-title">Select2</h3>
 
-          <div class="box-tools pull-right">
-            <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
-            <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-remove"></i></button>
+
+    <div class="content-wrapper">
+      <div class="container">
+
+        <div class="container-fluid" style="padding: 0; margin: 0;">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="box-header with-border" style="margin: 0; background: none;">
+                <h3 class="box-title" style="color: #111111">Practice Name A</h3>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="box-header no-border" style="background: none;">
+                <span id="monthYear" style="color: #5e5d5d; font-weight: 600;">September 2023</span>
+              </div>
+            </div>
           </div>
         </div>
-        <!-- /.box-header -->
+
         <div class="box-body">
           <div class="row">
             <div class="col-md-6">
               <div class="form-group">
-                <label>Minimal</label>
-                <select class="form-control select2" style="width: 100%;">
-                  <option selected="selected">Alabama</option>
-                  <option>Alaska</option>
-                  <option>California</option>
-                  <option>Delaware</option>
-                  <option>Tennessee</option>
-                  <option>Texas</option>
-                  <option>Washington</option>
-                </select>
-              </div>
-              <!-- /.form-group -->
-              <div class="form-group">
-                <label>Disabled</label>
-                <select class="form-control select2" disabled="disabled" style="width: 100%;">
-                  <option selected="selected">Alabama</option>
-                  <option>Alaska</option>
-                  <option>California</option>
-                  <option>Delaware</option>
-                  <option>Tennessee</option>
-                  <option>Texas</option>
-                  <option>Washington</option>
+                <label>Name</label>
+                <select class="form-control select2" style="width: 50%;">
+                  <option selected="selected">Benson</option>
+                  <option>John</option>
+                  <option>Patience</option>
+                  <option>Elon</option>
+                  <option>Sharon</option>
+                  <option>Moon</option>
                 </select>
               </div>
               <!-- /.form-group -->
             </div>
-            <!-- /.col -->
-            <div class="col-md-6">
+            <div class="col-md-6" style="padding-left: 2.5rem;">
               <div class="form-group">
-                <label>Multiple</label>
-                <select class="form-control select2" multiple="multiple" data-placeholder="Select a State" style="width: 100%;">
-                  <option>Alabama</option>
-                  <option>Alaska</option>
-                  <option>California</option>
-                  <option>Delaware</option>
-                  <option>Tennessee</option>
-                  <option>Texas</option>
-                  <option>Washington</option>
-                </select>
-              </div>
-              <!-- /.form-group -->
-              <div class="form-group">
-                <label>Disabled Result</label>
-                <select class="form-control select2" style="width: 100%;">
-                  <option selected="selected">Alabama</option>
-                  <option>Alaska</option>
-                  <option disabled="disabled">California (disabled)</option>
-                  <option>Delaware</option>
-                  <option>Tennessee</option>
-                  <option>Texas</option>
-                  <option>Washington</option>
+                <label>Role</label>
+                <select class="form-control select2" style="width: 50%;">
+                  <option selected="selected">Receptionist</option>
+                  <option>Practice Manager</option>
+                  <option>Consultant</option>
+                  <option>Nurse</option>
+                  <option>Trainee Nurse</option>
+                  <option>Security</option>
                 </select>
               </div>
               <!-- /.form-group -->
             </div>
-            <!-- /.col -->
           </div>
-          <!-- /.row -->
         </div>
+        <div class="box-header">
+          <h3 class="box-title">Attendance Report</h3>
+        </div>
+
+
         
-      </div>
-      <!-- /.box -->
+        <div class="row">
+          <div class="col-md-2 d-flex flex-column" style="background-color: #F5F4F0; height: 100vh;">
+                <!-- Inner sidebar -->
+                <div style="padding-top: 3rem;">
+                  <img class="profile-user-img img-responsive img-circle" src="../../dist/img/user4-128x128.jpg"
+                    alt="User profile picture">
 
-      <div class="row">
-        <div class="col-md-6">
+                  <h3 class="profile-username text-center" style="color: #1a2226">Nina Mcintire</h3>
 
-          <div class="box box-danger">
-            <div class="box-header">
-              <h3 class="box-title">Input masks</h3>
+                  <p class="text-muted text-center" style="color: #1a2226">Software Engineer</p>
+                </div>
+                <hr style="border:1px solid #dddcda">
+                <div class="row" style="color: #1a2226; text-align: center;">
+                  <div class="col-md-6">
+                    <p>Normal Hrs</p>
+                  </div>
+                  <p>Overtime</p>
+                  <div class="col-md-6">
+                    <p style="font-size: 11px;">HH:MM</p>
+                  </div>
+                  <p style="font-size: 11px;">HH:MM</p>
+                </div>
+                <hr style="border:1px solid #dddcda">
+                <div class="row" style="color: #1a2226; text-align: center;">
+                  <div class="col-md-6" style="font-size: 13px;">
+                    <p>Emergency Hrs 1</p>
+                  </div>
+                  <p style="font-size: 13px;">Emergency Hrs 2</p>
+                  <div class="col-md-6">
+                    <p style="font-size: 11px;">HH:MM</p>
+                  </div>
+                  <p style="font-size: 11px;">HH:MM</p>
+                </div>
+                <hr style="border:1px solid #dddcda">
+                <div class="row" style="color: #1a2226; text-align: center;">
+                  <div class="col-md-6">
+                    <p style="font-size: 13px;">Total Break</p>
+                  </div>
+                  <div class="col-md-6" style="padding-top: 1px;">
+                    <p style="font-size: 11px;">HH:MM</p>
+                  </div>
+                </div>
+                <hr style="border:1px solid #dddcda">
+                <div class="row" style="color: #1a2226; text-align: center;">
+                  <p>Total Holiday Taken</p>
+                  <p style="font-size: 11px;">5 Days</p>
+                </div>
+                <hr style="border:1px solid #dddcda">
+                <div class="row" style="color: #1a2226; text-align: center;">
+                  <div class="col-md-7">
+                    <p style="font-size: 13px;">Total Hours Worked</p>
+                  </div>
+                  <div class="col-md-5" style="margin-top: 2px;">
+                    <p style="font-size: 11px;">HH:MM</p>
+                  </div>
+                </div>
+                <hr style="border:1px solid #dddcda">
+              </div>
             </div>
-            <div class="box-body">
-              <!-- Date dd/mm/yyyy -->
-              <div class="form-group">
-                <label>Date masks:</label>
-
-                <div class="input-group">
-                  <div class="input-group-addon">
-                    <i class="fa fa-calendar"></i>
-                  </div>
-                  <input type="text" class="form-control" data-inputmask="'alias': 'dd/mm/yyyy'" data-mask>
-                </div>
-                <!-- /.input group -->
-              </div>
-              <!-- /.form group -->
-
-              <!-- Date mm/dd/yyyy -->
-              <div class="form-group">
-                <div class="input-group">
-                  <div class="input-group-addon">
-                    <i class="fa fa-calendar"></i>
-                  </div>
-                  <input type="text" class="form-control" data-inputmask="'alias': 'mm/dd/yyyy'" data-mask>
-                </div>
-                <!-- /.input group -->
-              </div>
-              <!-- /.form group -->
-
-              <!-- phone mask -->
-              <div class="form-group">
-                <label>US phone mask:</label>
-
-                <div class="input-group">
-                  <div class="input-group-addon">
-                    <i class="fa fa-phone"></i>
-                  </div>
-                  <input type="text" class="form-control" data-inputmask='"mask": "(999) 999-9999"' data-mask>
-                </div>
-                <!-- /.input group -->
-              </div>
-              <!-- /.form group -->
-			  
-			    <!-- Time mask -->
-              <div class="form-group">
-                <label>Time:</label>
-
-                <div class="input-group">
-                  <div class="input-group-addon">
-                    <i class="fa fa-phone"></i>
-                  </div>
-                  <input type="text" class="form-control" data-inputmask='"mask": "99-99"' data-mask>
-                </div>
-                <!-- /.input group -->
-              </div>
-              <!-- /.form group -->
-
-              <!-- phone mask -->
-              <div class="form-group">
-                <label>Intl US phone mask:</label>
-
-                <div class="input-group">
-                  <div class="input-group-addon">
-                    <i class="fa fa-phone"></i>
-                  </div>
-                  <input type="text" class="form-control" data-inputmask="'mask': ['999-999-9999 [x99999]', '+099 99 99 9999[9]-9999']" data-mask>
-                </div>
-                <!-- /.input group -->
-              </div>
-              <!-- /.form group -->
-
-              <!-- IP mask -->
-              <div class="form-group">
-                <label>IP mask:</label>
-
-                <div class="input-group">
-                  <div class="input-group-addon">
-                    <i class="fa fa-laptop"></i>
-                  </div>
-                  <input type="text" class="form-control" data-inputmask="'alias': 'ip'" data-mask>
-                </div>
-                <!-- /.input group -->
-              </div>
-              <!-- /.form group -->
-
             </div>
-            <!-- /.box-body -->
+            
+
+              
+          
+
+       <div class="col-md-10" style="margin: 0;">
+              <div>
+                <table id="example1" class="table table-bordered table-striped">
+                  <thead>
+                    <tr>
+                      <th colspan="6"
+                        style="background: linear-gradient(to right, #ffffff, rgb(236, 240, 245)); border-bottom: 1px solid #b5bbc8;">
+                        Normal Attendance</th>
+                      <th colspan="2" style="background: #f56954; color: white">Overtime</th>
+                      <th colspan="2" style="background:#3c8dbc; color: white">Emergency Attendance 1</th>
+                      <th colspan="2" style="background:hsl(213, 73%, 50%); color: white;">Emergency Attendance 2</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr
+                      style="font-weight: 600; text-align: left; background: linear-gradient(to right, #ffffff, rgb(236, 240, 245));">
+                      <td style="border-bottom: 1px solid #b5bbc8;">Date</td>
+                      <td style="border-bottom: 1px solid #b5bbc8;">Check In</td>
+                      <td style="border-bottom: 1px solid #b5bbc8;">Check Out</td>
+                      <td style="border-bottom: 1px solid #b5bbc8;">Break</td>
+                      <td style="border-bottom: 1px solid #b5bbc8;">Holiday</td>
+                      <td style="border-bottom: 1px solid #b5bbc8;">Worked Hour</td>
+                      <td style="color: white; background: #f56954">Check In</td>
+                      <td style="color: white; background: #f56954">Check Out</td>
+                      <td style="color: white; background:#3c8dbc">Check In</td>
+                      <td style="color: white; background:#3c8dbc">Check Out</td>
+                      <td style="color: white; background:hsl(213, 73%, 50%);">Check In</td>
+                      <td style="color: white; background:hsl(213, 73%, 50%);">Check Out</td>
+                    </tr>
+                    <tr>
+                      <td>05/09/2023</td>
+                      <td>8:00am</td>
+                      <td>11:45am</td>
+                      <td>30mns</td>
+                      <td>10hrs</td>
+                      <td>5hrs</td>
+                      <td>1:00pm</td>
+                      <td>2:50pm</td>
+                      <td>3:45pm</td>
+                      <td>5:00pm</td>
+                      <td>7:00pm</td>
+                      <td>9:00pm</td>
+                    </tr>
+                    <tr>
+                      <td>05/09/2023</td>
+                      <td>8:00am</td>
+                      <td>11:45am</td>
+                      <td>30mns</td>
+                      <td>10hrs</td>
+                      <td>5hrs</td>
+                      <td>1:00pm</td>
+                      <td>2:50pm</td>
+                      <td>3:45pm</td>
+                      <td>5:00pm</td>
+                      <td>7:00pm</td>
+                      <td>9:00pm</td>
+                    </tr>
+                    <tr>
+                      <td>05/09/2023</td>
+                      <td>8:00am</td>
+                      <td>11:45am</td>
+                      <td>30mns</td>
+                      <td>10hrs</td>
+                      <td>5hrs</td>
+                      <td>1:00pm</td>
+                      <td>2:50pm</td>
+                      <td>3:45pm</td>
+                      <td>5:00pm</td>
+                      <td>7:00pm</td>
+                      <td>9:00pm</td>
+                    </tr>
+                    <tr>
+                      <td>05/09/2023</td>
+                      <td>8:00am</td>
+                      <td>11:45am</td>
+                      <td>30mns</td>
+                      <td>10hrs</td>
+                      <td>5hrs</td>
+                      <td>1:00pm</td>
+                      <td>2:50pm</td>
+                      <td>3:45pm</td>
+                      <td>5:00pm</td>
+                      <td>7:00pm</td>
+                      <td>9:00pm</td>
+                    </tr>
+                    <tr>
+                      <td>05/09/2023</td>
+                      <td>8:00am</td>
+                      <td>11:45am</td>
+                      <td>30mns</td>
+                      <td>10hrs</td>
+                      <td>5hrs</td>
+                      <td>1:00pm</td>
+                      <td>2:50pm</td>
+                      <td>3:45pm</td>
+                      <td>5:00pm</td>
+                      <td>7:00pm</td>
+                      <td>9:00pm</td>
+                    </tr>
+                    <tr>
+                      <td>05/09/2023</td>
+                      <td>8:00am</td>
+                      <td>11:45am</td>
+                      <td>30mns</td>
+                      <td>10hrs</td>
+                      <td>5hrs</td>
+                      <td>1:00pm</td>
+                      <td>2:50pm</td>
+                      <td>3:45pm</td>
+                      <td>5:00pm</td>
+                      <td>7:00pm</td>
+                      <td>9:00pm</td>
+                    </tr>
+                    <tr>
+                      <td>05/09/2023</td>
+                      <td>8:00am</td>
+                      <td>11:45am</td>
+                      <td>30mns</td>
+                      <td>10hrs</td>
+                      <td>5hrs</td>
+                      <td>1:00pm</td>
+                      <td>2:50pm</td>
+                      <td>3:45pm</td>
+                      <td>5:00pm</td>
+                      <td>7:00pm</td>
+                      <td>9:00pm</td>
+                    </tr>
+                    <tr>
+                      <td>05/09/2023</td>
+                      <td>8:00am</td>
+                      <td>11:45am</td>
+                      <td>30mns</td>
+                      <td>10hrs</td>
+                      <td>5hrs</td>
+                      <td>1:00pm</td>
+                      <td>2:50pm</td>
+                      <td>3:45pm</td>
+                      <td>5:00pm</td>
+                      <td>7:00pm</td>
+                      <td>9:00pm</td>
+                    </tr>
+                    <tr>
+                      <td>05/09/2023</td>
+                      <td>8:00am</td>
+                      <td>11:45am</td>
+                      <td>30mns</td>
+                      <td>10hrs</td>
+                      <td>5hrs</td>
+                      <td>1:00pm</td>
+                      <td>2:50pm</td>
+                      <td>3:45pm</td>
+                      <td>5:00pm</td>
+                      <td>7:00pm</td>
+                      <td>9:00pm</td>
+                    </tr>
+                    <tr>
+                      <td>05/09/2023</td>
+                      <td>8:00am</td>
+                      <td>11:45am</td>
+                      <td>30mns</td>
+                      <td>10hrs</td>
+                      <td>5hrs</td>
+                      <td>1:00pm</td>
+                      <td>2:50pm</td>
+                      <td>3:45pm</td>
+                      <td>5:00pm</td>
+                      <td>7:00pm</td>
+                      <td>9:00pm</td>
+                    </tr>
+                    <tr>
+                      <td>05/09/2023</td>
+                      <td>8:00am</td>
+                      <td>11:45am</td>
+                      <td>30mns</td>
+                      <td>10hrs</td>
+                      <td>5hrs</td>
+                      <td>1:00pm</td>
+                      <td>2:50pm</td>
+                      <td>3:45pm</td>
+                      <td>5:00pm</td>
+                      <td>7:00pm</td>
+                      <td>9:00pm</td>
+                    </tr>
+                    <tr>
+                      <td>05/09/2023</td>
+                      <td>8:00am</td>
+                      <td>11:45am</td>
+                      <td>30mns</td>
+                      <td>10hrs</td>
+                      <td>5hrs</td>
+                      <td>1:00pm</td>
+                      <td>2:50pm</td>
+                      <td>3:45pm</td>
+                      <td>5:00pm</td>
+                      <td>7:00pm</td>
+                      <td>9:00pm</td>
+                    </tr>
+                    <tr>
+                      <td>05/09/2023</td>
+                      <td>8:00am</td>
+                      <td>11:45am</td>
+                      <td>30mns</td>
+                      <td>10hrs</td>
+                      <td>5hrs</td>
+                      <td>1:00pm</td>
+                      <td>2:50pm</td>
+                      <td>3:45pm</td>
+                      <td>5:00pm</td>
+                      <td>7:00pm</td>
+                      <td>9:00pm</td>
+                    </tr>
+                    <tr>
+                      <td>05/09/2023</td>
+                      <td>8:00am</td>
+                      <td>11:45am</td>
+                      <td>30mns</td>
+                      <td>10hrs</td>
+                      <td>5hrs</td>
+                      <td>1:00pm</td>
+                      <td>2:50pm</td>
+                      <td>3:45pm</td>
+                      <td>5:00pm</td>
+                      <td>7:00pm</td>
+                      <td>9:00pm</td>
+                    </tr>
+                    <tr>
+                      <td>05/09/2023</td>
+                      <td>8:00am</td>
+                      <td>11:45am</td>
+                      <td>30mns</td>
+                      <td>10hrs</td>
+                      <td>5hrs</td>
+                      <td>1:00pm</td>
+                      <td>2:50pm</td>
+                      <td>3:45pm</td>
+                      <td>5:00pm</td>
+                      <td>7:00pm</td>
+                      <td>9:00pm</td>
+                    </tr>
+                    <tr>
+                      <td>05/09/2023</td>
+                      <td>8:00am</td>
+                      <td>11:45am</td>
+                      <td>30mns</td>
+                      <td>10hrs</td>
+                      <td>5hrs</td>
+                      <td>1:00pm</td>
+                      <td>2:50pm</td>
+                      <td>3:45pm</td>
+                      <td>5:00pm</td>
+                      <td>7:00pm</td>
+                      <td>9:00pm</td>
+                    </tr>
+                    <tr>
+                      <td>05/09/2023</td>
+                      <td>8:00am</td>
+                      <td>11:45am</td>
+                      <td>30mns</td>
+                      <td>10hrs</td>
+                      <td>5hrs</td>
+                      <td>1:00pm</td>
+                      <td>2:50pm</td>
+                      <td>3:45pm</td>
+                      <td>5:00pm</td>
+                      <td>7:00pm</td>
+                      <td>9:00pm</td>
+                    </tr>
+                    <tr>
+                      <td>05/09/2023</td>
+                      <td>8:00am</td>
+                      <td>11:45am</td>
+                      <td>30mns</td>
+                      <td>10hrs</td>
+                      <td>5hrs</td>
+                      <td>1:00pm</td>
+                      <td>2:50pm</td>
+                      <td>3:45pm</td>
+                      <td>5:00pm</td>
+                      <td>7:00pm</td>
+                      <td>9:00pm</td>
+                    </tr>
+                    <tr>
+                      <td>05/09/2023</td>
+                      <td>8:00am</td>
+                      <td>11:45am</td>
+                      <td>30mns</td>
+                      <td>10hrs</td>
+                      <td>5hrs</td>
+                      <td>1:00pm</td>
+                      <td>2:50pm</td>
+                      <td>3:45pm</td>
+                      <td>5:00pm</td>
+                      <td>7:00pm</td>
+                      <td>9:00pm</td>
+                    </tr>
+                    <tr>
+                      <td>05/09/2023</td>
+                      <td>8:00am</td>
+                      <td>11:45am</td>
+                      <td>30mns</td>
+                      <td>10hrs</td>
+                      <td>5hrs</td>
+                      <td>1:00pm</td>
+                      <td>2:50pm</td>
+                      <td>3:45pm</td>
+                      <td>5:00pm</td>
+                      <td>7:00pm</td>
+                      <td>9:00pm</td>
+                    </tr>
+                    <tr>
+                      <td>05/09/2023</td>
+                      <td>8:00am</td>
+                      <td>11:45am</td>
+                      <td>30mns</td>
+                      <td>10hrs</td>
+                      <td>5hrs</td>
+                      <td>1:00pm</td>
+                      <td>2:50pm</td>
+                      <td>3:45pm</td>
+                      <td>5:00pm</td>
+                      <td>7:00pm</td>
+                      <td>9:00pm</td>
+                    </tr>
+                    <tr>
+                      <td>05/09/2023</td>
+                      <td>8:00am</td>
+                      <td>11:45am</td>
+                      <td>30mns</td>
+                      <td>10hrs</td>
+                      <td>5hrs</td>
+                      <td>1:00pm</td>
+                      <td>2:50pm</td>
+                      <td>3:45pm</td>
+                      <td>5:00pm</td>
+                      <td>7:00pm</td>
+                      <td>9:00pm</td>
+                    </tr>
+                    <tr>
+                      <td>05/09/2023</td>
+                      <td>8:00am</td>
+                      <td>11:45am</td>
+                      <td>30mns</td>
+                      <td>10hrs</td>
+                      <td>5hrs</td>
+                      <td>1:00pm</td>
+                      <td>2:50pm</td>
+                      <td>3:45pm</td>
+                      <td>5:00pm</td>
+                      <td>7:00pm</td>
+                      <td>9:00pm</td>
+                    </tr>
+                    </tfoot>
+                </table>
+              </div>
+            </div>
           </div>
-          <!-- /.box -->
-
-          <div class="box box-info">
-            <div class="box-header">
-              <h3 class="box-title">Color & Time Picker</h3>
-            </div>
-            <div class="box-body">
-              <!-- Color Picker -->
-              <div class="form-group">
-                <label>Color picker:</label>
-                <input type="text" class="form-control my-colorpicker1">
-              </div>
-              <!-- /.form group -->
-
-              <!-- Color Picker -->
-              <div class="form-group">
-                <label>Color picker with addon:</label>
-
-                <div class="input-group my-colorpicker2">
-                  <input type="text" class="form-control">
-
-                  <div class="input-group-addon">
-                    <i></i>
-                  </div>
-                </div>
-                <!-- /.input group -->
-              </div>
-              <!-- /.form group -->
-
-              <!-- time Picker -->
-              <div class="bootstrap-timepicker">
-                <div class="form-group">
-                  <label>Time picker:</label>
-
-                  <div class="input-group">
-                    <input type="text" class="form-control timepicker">
-
-                    <div class="input-group-addon">
-                      <i class="fa fa-clock-o"></i>
-                    </div>
-                  </div>
-                  <!-- /.input group -->
-                </div>
-                <!-- /.form group -->
-              </div>
-            </div>
-            <!-- /.box-body -->
           </div>
-          <!-- /.box -->
+        
+         
+        
+        <!-- /.box-header -->
 
-        </div>
-        <!-- /.col (left) -->
-        <div class="col-md-6">
-          <div class="box box-primary">
-            <div class="box-header">
-              <h3 class="box-title">Date picker</h3>
-            </div>
-            <div class="box-body">
-              <!-- Date range -->
-              <div class="form-group">
-                <label>Date range:</label>
-
-                <div class="input-group">
-                  <div class="input-group-addon">
-                    <i class="fa fa-calendar"></i>
-                  </div>
-                  <input type="text" class="form-control pull-right" id="reservation">
-                </div>
-                <!-- /.input group -->
-              </div>
-              <!-- /.form group -->
-
-              <!-- Date and time range -->
-              <div class="form-group">
-                <label>Date and time range:</label>
-
-                <div class="input-group">
-                  <div class="input-group-addon">
-                    <i class="fa fa-clock-o"></i>
-                  </div>
-                  <input type="text" class="form-control pull-right" id="reservationtime">
-                </div>
-                <!-- /.input group -->
-              </div>
-              <!-- /.form group -->
-
-              <!-- Date and time range -->
-              <div class="form-group">
-                <label>Date range button:</label>
-
-                <div class="input-group">
-                  <button type="button" class="btn btn-default pull-right" id="daterange-btn">
-                    <i class="fa fa-calendar"></i> Date range picker
-                    <i class="fa fa-caret-down"></i>
-                  </button>
-                </div>
-              </div>
-              <!-- /.form group -->
-
-            </div>
-            <!-- /.box-body -->
-          </div>
-          <!-- /.box -->
-
-          <!-- iCheck -->
-          <div class="box box-success">
-            <div class="box-header">
-              <h3 class="box-title">iCheck - Checkbox &amp; Radio Inputs</h3>
-            </div>
-            <div class="box-body">
-              <!-- Minimal style -->
-
-              <!-- checkbox -->
-              <div class="form-group">
-                <label>
-                  <input type="checkbox" class="minimal" checked>
-                </label>
-                <label>
-                  <input type="checkbox" class="minimal">
-                </label>
-                <label>
-                  <input type="checkbox" class="minimal" disabled>
-                  Minimal skin checkbox
-                </label>
-              </div>
-
-              <!-- radio -->
-              <div class="form-group">
-                <label>
-                  <input type="radio" name="r1" class="minimal" checked>
-                </label>
-                <label>
-                  <input type="radio" name="r1" class="minimal">
-                </label>
-                <label>
-                  <input type="radio" name="r1" class="minimal" disabled>
-                  Minimal skin radio
-                </label>
-              </div>
-
-              <!-- Minimal red style -->
-
-              <!-- checkbox -->
-              <div class="form-group">
-                <label>
-                  <input type="checkbox" class="minimal-red" checked>
-                </label>
-                <label>
-                  <input type="checkbox" class="minimal-red">
-                </label>
-                <label>
-                  <input type="checkbox" class="minimal-red" disabled>
-                  Minimal red skin checkbox
-                </label>
-              </div>
-
-              <!-- radio -->
-              <div class="form-group">
-                <label>
-                  <input type="radio" name="r2" class="minimal-red" checked>
-                </label>
-                <label>
-                  <input type="radio" name="r2" class="minimal-red">
-                </label>
-                <label>
-                  <input type="radio" name="r2" class="minimal-red" disabled>
-                  Minimal red skin radio
-                </label>
-              </div>
-
-              <!-- Minimal red style -->
-
-              <!-- checkbox -->
-              <div class="form-group">
-                <label>
-                  <input type="checkbox" class="flat-red" checked>
-                </label>
-                <label>
-                  <input type="checkbox" class="flat-red">
-                </label>
-                <label>
-                  <input type="checkbox" class="flat-red" disabled>
-                  Flat green skin checkbox
-                </label>
-              </div>
-
-              <!-- radio -->
-              <div class="form-group">
-                <label>
-                  <input type="radio" name="r3" class="flat-red" checked>
-                </label>
-                <label>
-                  <input type="radio" name="r3" class="flat-red">
-                </label>
-                <label>
-                  <input type="radio" name="r3" class="flat-red" disabled>
-                  Flat green skin radio
-                </label>
-              </div>
-            </div>
-            <!-- /.box-body -->
-            <div class="box-footer">
-              Many more skins available. <a href="http://fronteed.com/iCheck/">Documentation</a>
-            </div>
-          </div>
-          <!-- /.box -->
-        </div>
-        <!-- /.col (right) -->
-      </div>
-      <!-- /.row -->
-
-    </section>
-    <!-- /.content -->
-  </div>
-  <!-- /.content-wrapper -->
-  <footer class="main-footer">
-    <div class="pull-right hidden-xs">
-      <b>Version</b> 2.3.2
-    </div>
-    <strong>Copyright &copy; 2014-2015 <a href="http://almsaeedstudio.com">Almsaeed Studio</a>.</strong> All rights
-    reserved.
-  </footer>
-
-  <!-- Control Sidebar -->
-  <aside class="control-sidebar control-sidebar-dark">
-    <!-- Create the tabs -->
-    <ul class="nav nav-tabs nav-justified control-sidebar-tabs">
-      <li><a href="#control-sidebar-home-tab" data-toggle="tab"><i class="fa fa-home"></i></a></li>
-      <li><a href="#control-sidebar-settings-tab" data-toggle="tab"><i class="fa fa-gears"></i></a></li>
-    </ul>
-    <!-- Tab panes -->
-    <div class="tab-content">
-      <!-- Home tab content -->
-      <div class="tab-pane" id="control-sidebar-home-tab">
-        <h3 class="control-sidebar-heading">Recent Activity</h3>
-        <ul class="control-sidebar-menu">
-          <li>
-            <a href="javascript::;">
-              <i class="menu-icon fa fa-birthday-cake bg-red"></i>
-
-              <div class="menu-info">
-                <h4 class="control-sidebar-subheading">Langdon's Birthday</h4>
-
-                <p>Will be 23 on April 24th</p>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a href="javascript::;">
-              <i class="menu-icon fa fa-user bg-yellow"></i>
-
-              <div class="menu-info">
-                <h4 class="control-sidebar-subheading">Frodo Updated His Profile</h4>
-
-                <p>New phone +1(800)555-1234</p>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a href="javascript::;">
-              <i class="menu-icon fa fa-envelope-o bg-light-blue"></i>
-
-              <div class="menu-info">
-                <h4 class="control-sidebar-subheading">Nora Joined Mailing List</h4>
-
-                <p>nora@example.com</p>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a href="javascript::;">
-              <i class="menu-icon fa fa-file-code-o bg-green"></i>
-
-              <div class="menu-info">
-                <h4 class="control-sidebar-subheading">Cron Job 254 Executed</h4>
-
-                <p>Execution time 5 seconds</p>
-              </div>
-            </a>
-          </li>
-        </ul>
-        <!-- /.control-sidebar-menu -->
-
-        <h3 class="control-sidebar-heading">Tasks Progress</h3>
-        <ul class="control-sidebar-menu">
-          <li>
-            <a href="javascript::;">
-              <h4 class="control-sidebar-subheading">
-                Custom Template Design
-                <span class="label label-danger pull-right">70%</span>
-              </h4>
-
-              <div class="progress progress-xxs">
-                <div class="progress-bar progress-bar-danger" style="width: 70%"></div>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a href="javascript::;">
-              <h4 class="control-sidebar-subheading">
-                Update Resume
-                <span class="label label-success pull-right">95%</span>
-              </h4>
-
-              <div class="progress progress-xxs">
-                <div class="progress-bar progress-bar-success" style="width: 95%"></div>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a href="javascript::;">
-              <h4 class="control-sidebar-subheading">
-                Laravel Integration
-                <span class="label label-warning pull-right">50%</span>
-              </h4>
-
-              <div class="progress progress-xxs">
-                <div class="progress-bar progress-bar-warning" style="width: 50%"></div>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a href="javascript::;">
-              <h4 class="control-sidebar-subheading">
-                Back End Framework
-                <span class="label label-primary pull-right">68%</span>
-              </h4>
-
-              <div class="progress progress-xxs">
-                <div class="progress-bar progress-bar-primary" style="width: 68%"></div>
-              </div>
-            </a>
-          </li>
-        </ul>
-        <!-- /.control-sidebar-menu -->
+        <!-- /.box-body -->
+        <!-- /.box -->
 
       </div>
-      <!-- /.tab-pane -->
-      <!-- Stats tab content -->
-      <div class="tab-pane" id="control-sidebar-stats-tab">Stats Tab Content</div>
-      <!-- /.tab-pane -->
-      <!-- Settings tab content -->
-      <div class="tab-pane" id="control-sidebar-settings-tab">
-        <form method="post">
-          <h3 class="control-sidebar-heading">General Settings</h3>
+      <!-- ./wrapper -->
 
-          <div class="form-group">
-            <label class="control-sidebar-subheading">
-              Report panel usage
-              <input type="checkbox" class="pull-right" checked>
-            </label>
+      <script>
+        // Get the current date
+        const currentDate = new Date();
+        // Define an array of month names
+        const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September",
+          "October", "November", "December"
+        ];
+        // Get the current month and year
+        const currentMonth = monthNames[currentDate.getMonth()];
+        const currentYear = currentDate.getFullYear();
+        // Display the month and year in the HTML element with id "monthYear"
+        const monthYearElement = document.getElementById("monthYear");
+        monthYearElement.textContent = currentMonth + " " + currentYear;
+        var namex = document.querySelector("#namex")
+        var nameLists = document.querySelectorAll(".name-option")
+        var rolex = document.querySelector("#rolex")
+        var roleLists = document.querySelectorAll(".role-option")
+        nameLists.forEach(element => {
+          element.onclick = () => {
+            namex.value = element.textContent;
+          };
+        });
+        roleLists.forEach(element => {
+          element.onclick = () => {
+            rolex.value = element.textContent;
+          };
+        });
+      </script>
 
-            <p>
-              Some information about this general settings option
-            </p>
-          </div>
-          <!-- /.form-group -->
-
-          <div class="form-group">
-            <label class="control-sidebar-subheading">
-              Allow mail redirect
-              <input type="checkbox" class="pull-right" checked>
-            </label>
-
-            <p>
-              Other sets of options are available
-            </p>
-          </div>
-          <!-- /.form-group -->
-
-          <div class="form-group">
-            <label class="control-sidebar-subheading">
-              Expose author name in posts
-              <input type="checkbox" class="pull-right" checked>
-            </label>
-
-            <p>
-              Allow the user to show his name in blog posts
-            </p>
-          </div>
-          <!-- /.form-group -->
-
-          <h3 class="control-sidebar-heading">Chat Settings</h3>
-
-          <div class="form-group">
-            <label class="control-sidebar-subheading">
-              Show me as online
-              <input type="checkbox" class="pull-right" checked>
-            </label>
-          </div>
-          <!-- /.form-group -->
-
-          <div class="form-group">
-            <label class="control-sidebar-subheading">
-              Turn off notifications
-              <input type="checkbox" class="pull-right">
-            </label>
-          </div>
-          <!-- /.form-group -->
-
-          <div class="form-group">
-            <label class="control-sidebar-subheading">
-              Delete chat history
-              <a href="javascript::;" class="text-red pull-right"><i class="fa fa-trash-o"></i></a>
-            </label>
-          </div>
-          <!-- /.form-group -->
-        </form>
-      </div>
-      <!-- /.tab-pane -->
-    </div>
-  </aside>
-  <!-- /.control-sidebar -->
-  <!-- Add the sidebar's background. This div must be placed
-       immediately after the control sidebar -->
-  <div class="control-sidebar-bg"></div>
-</div>
-<!-- ./wrapper -->
-
-<!-- jQuery 2.1.4 -->
-<script src="../../plugins/jQuery/jQuery-2.1.4.min.js"></script>
-<!-- Bootstrap 3.3.5 -->
-<script src="../../bootstrap/js/bootstrap.min.js"></script>
-<!-- Select2 -->
-<script src="../../plugins/select2/select2.full.min.js"></script>
-<!-- InputMask -->
-<script src="../../plugins/input-mask/jquery.inputmask.js"></script>
-<script src="../../plugins/input-mask/jquery.inputmask.date.extensions.js"></script>
-<script src="../../plugins/input-mask/jquery.inputmask.extensions.js"></script>
-<!-- date-range-picker -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.2/moment.min.js"></script>
-<script src="../../plugins/daterangepicker/daterangepicker.js"></script>
-<!-- bootstrap color picker -->
-<script src="../../plugins/colorpicker/bootstrap-colorpicker.min.js"></script>
-<!-- bootstrap time picker -->
-<script src="../../plugins/timepicker/bootstrap-timepicker.min.js"></script>
-<!-- SlimScroll 1.3.0 -->
-<script src="../../plugins/slimScroll/jquery.slimscroll.min.js"></script>
-<!-- iCheck 1.0.1 -->
-<script src="../../plugins/iCheck/icheck.min.js"></script>
-<!-- FastClick -->
-<script src="../../plugins/fastclick/fastclick.js"></script>
-<!-- AdminLTE App -->
-<script src="../../dist/js/app.min.js"></script>
-<!-- AdminLTE for demo purposes -->
-<script src="../../dist/js/demo.js"></script>
-<!-- Page script -->
-<script>
-  $(function () {
-    //Initialize Select2 Elements
-    $(".select2").select2();
-
-    //Datemask dd/mm/yyyy
-    $("#datemask").inputmask("dd/mm/yyyy", {"placeholder": "dd/mm/yyyy"});
-    //Datemask2 mm/dd/yyyy
-    $("#datemask2").inputmask("mm/dd/yyyy", {"placeholder": "mm/dd/yyyy"});
-    //Money Euro
-    $("[data-mask]").inputmask();
-
-    //Date range picker
-    $('#reservation').daterangepicker();
-    //Date range picker with time picker
-    $('#reservationtime').daterangepicker({timePicker: true, timePickerIncrement: 30, format: 'MM/DD/YYYY h:mm A'});
-    //Date range as a button
-    $('#daterange-btn').daterangepicker(
-        {
-          ranges: {
-            'Today': [moment(), moment()],
-            'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
-            'Last 7 Days': [moment().subtract(6, 'days'), moment()],
-            'Last 30 Days': [moment().subtract(29, 'days'), moment()],
-            'This Month': [moment().startOf('month'), moment().endOf('month')],
-            'Last Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
-          },
-          startDate: moment().subtract(29, 'days'),
-          endDate: moment()
-        },
-        function (start, end) {
-          $('#reportrange span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
-        }
-    );
-
-    //iCheck for checkbox and radio inputs
-    $('input[type="checkbox"].minimal, input[type="radio"].minimal').iCheck({
-      checkboxClass: 'icheckbox_minimal-blue',
-      radioClass: 'iradio_minimal-blue'
-    });
-    //Red color scheme for iCheck
-    $('input[type="checkbox"].minimal-red, input[type="radio"].minimal-red').iCheck({
-      checkboxClass: 'icheckbox_minimal-red',
-      radioClass: 'iradio_minimal-red'
-    });
-    //Flat red color scheme for iCheck
-    $('input[type="checkbox"].flat-red, input[type="radio"].flat-red').iCheck({
-      checkboxClass: 'icheckbox_flat-green',
-      radioClass: 'iradio_flat-green'
-    });
-
-    //Colorpicker
-    $(".my-colorpicker1").colorpicker();
-    //color picker with addon
-    $(".my-colorpicker2").colorpicker();
-
-    //Timepicker
-    $(".timepicker").timepicker({
-      showInputs: false
-    });
-  });
-</script>
+      <!-- jQuery 2.1.4 -->
+      <script src="../../plugins/jQuery/jQuery-2.1.4.min.js"></script>
+      <!-- Bootstrap 3.3.5 -->
+      <script src="../../bootstrap/js/bootstrap.min.js"></script>
+      <!-- Slimscroll -->
+      <script src="../../plugins/slimScroll/jquery.slimscroll.min.js"></script>
+      <!-- FastClick -->
+      <script src="../../plugins/fastclick/fastclick.js"></script>
+      <!-- AdminLTE App -->
+      <script src="../../dist/js/app.min.js"></script>
+      <!-- AdminLTE for demo purposes -->
+      <script src="../../dist/js/demo.js"></script>
 </body>
+
 </html>
